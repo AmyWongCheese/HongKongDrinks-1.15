@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "vitalemontea"
+      },
+      "name": "default"
+    },
+    "vitahoneylime": {
+      "map": {
+        "0": "vitahoneylime"
+      },
+      "name": "vitahoneylime"
+    },
+    "taotimetatea": {
+      "map": {
+        "0": "taotimetatea"
+      },
+      "name": "taotimetatea"
+    }
+  }
+}

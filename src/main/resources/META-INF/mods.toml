@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="hongkongdrinks"
+version="1.0.0"
+displayName="Hong Kong Drinks"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="wong, MCreator"
+
+[[dependencies.hongkongdrinks]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.hongkongdrinks]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+

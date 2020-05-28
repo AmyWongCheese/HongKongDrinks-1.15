@@ -6,6 +6,9 @@
     "items": [
       {
         "value": "CUSTOM:VitaHoneyLimeDrink"
+      },
+      {
+        "value": "CUSTOM:TaoTiHoneyGreenTea"
       }
     ],
     "blocks": [],

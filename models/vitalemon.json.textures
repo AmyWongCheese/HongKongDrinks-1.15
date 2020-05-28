@@ -17,6 +17,12 @@
         "0": "taotimetatea"
       },
       "name": "taotimetatea"
+    },
+    "taotigreentea": {
+      "map": {
+        "0": "taotigreentea"
+      },
+      "name": "taotigreentea"
     }
   }
 }

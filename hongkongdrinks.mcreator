@@ -407,6 +407,15 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_meta_tea_recipe"
+    },
+    {
+      "name": "TaoTiHoneyGreenTea",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_honey_green_tea"
     }
   ],
   "variable_elements": [],
@@ -416,6 +425,7 @@
       "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
       "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
+      "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
       "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
       "entity.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea",
       "item.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea Spawn Egg",

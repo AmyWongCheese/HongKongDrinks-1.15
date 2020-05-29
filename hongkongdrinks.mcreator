@@ -416,6 +416,90 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_honey_green_tea"
+    },
+    {
+      "name": "TaoTiHoneyGreenTeaEntity",
+      "type": "mob",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_honey_green_tea_entity"
+    },
+    {
+      "name": "TaoTiHoneyGreenTeaEntityEntityIsHurt",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_honey_green_tea_entity_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaoTiHoneyGreenTeaOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tao_ti_honey_green_tea_on_food_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaoTiHoneyGreenTeaRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tao_ti_honey_green_tea_recipe"
     }
   ],
   "variable_elements": [],
@@ -424,6 +508,7 @@
     "en_us": {
       "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
       "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
+      "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
       "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
       "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
@@ -435,7 +520,8 @@
       "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
       "itemGroup.tabhong_kong_drinks": "Hong Kong Drinks",
       "entity.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink",
-      "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea"
+      "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",
+      "item.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea Spawn Egg"
     }
   },
   "workspaceSettings": {

@@ -1,6 +1,7 @@
 {
   "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
   "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
+  "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea",
   "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
   "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
   "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
@@ -12,5 +13,6 @@
   "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
   "itemGroup.tabhong_kong_drinks": "Hong Kong Drinks",
   "entity.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink",
-  "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea"
+  "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",
+  "item.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea Spawn Egg"
 }

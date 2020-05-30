@@ -10,34 +10,34 @@ import net.minecraft.client.network.play.NetworkPlayerInfo;
 import net.minecraft.client.entity.player.ClientPlayerEntity;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.hongkongdrinks.item.TaoTiMetaGreenTeaItem;
+import net.mcreator.hongkongdrinks.item.TaoTiMandarinLemonItem;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class TaoTiMetaGreenTeaEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
-	public TaoTiMetaGreenTeaEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
-		super(instance, 20);
+public class TaoTiMandarinLemonEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
+	public TaoTiMandarinLemonEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
+		super(instance, 37);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure TaoTiMetaGreenTeaEntityEntityIsHurt!");
+			System.err.println("Failed to load dependency entity for procedure TaoTiMandarinLemonEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure TaoTiMetaGreenTeaEntityEntityIsHurt!");
+			System.err.println("Failed to load dependency x for procedure TaoTiMandarinLemonEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure TaoTiMetaGreenTeaEntityEntityIsHurt!");
+			System.err.println("Failed to load dependency y for procedure TaoTiMandarinLemonEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure TaoTiMetaGreenTeaEntityEntityIsHurt!");
+			System.err.println("Failed to load dependency z for procedure TaoTiMandarinLemonEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure TaoTiMetaGreenTeaEntityEntityIsHurt!");
+			System.err.println("Failed to load dependency world for procedure TaoTiMandarinLemonEntityEntityIsHurt!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -59,7 +59,7 @@ public class TaoTiMetaGreenTeaEntityEntityIsHurtProcedure extends Hongkongdrinks
 			}
 		}.checkGamemode(entity)))) {
 			if (!world.isRemote) {
-				ItemEntity entityToSpawn = new ItemEntity(world, x, y, z, new ItemStack(TaoTiMetaGreenTeaItem.block, (int) (1)));
+				ItemEntity entityToSpawn = new ItemEntity(world, x, y, z, new ItemStack(TaoTiMandarinLemonItem.block, (int) (1)));
 				entityToSpawn.setPickupDelay(10);
 				world.addEntity(entityToSpawn);
 			}

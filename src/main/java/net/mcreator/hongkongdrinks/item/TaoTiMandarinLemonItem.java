@@ -14,16 +14,16 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.hongkongdrinks.procedures.VitaLemonTeaFoodEatenProcedure;
-import net.mcreator.hongkongdrinks.procedures.TaoTiHoneyGreenTeaOnFoodRightClickedProcedure;
+import net.mcreator.hongkongdrinks.procedures.TaoTiMandarinLemonOnFoodRightClickedProcedure;
 import net.mcreator.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class TaoTiHoneyGreenTeaItem extends HongkongdrinksModElements.ModElement {
-	@ObjectHolder("hongkongdrinks:tao_ti_honey_green_tea")
+public class TaoTiMandarinLemonItem extends HongkongdrinksModElements.ModElement {
+	@ObjectHolder("hongkongdrinks:tao_ti_mandarin_lemon")
 	public static final Item block = null;
-	public TaoTiHoneyGreenTeaItem(HongkongdrinksModElements instance) {
-		super(instance, 5);
+	public TaoTiMandarinLemonItem(HongkongdrinksModElements instance) {
+		super(instance, 7);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class TaoTiHoneyGreenTeaItem extends HongkongdrinksModElements.ModElement
 		public FoodItemCustom() {
 			super(new Item.Properties().group(HongKongDrinksItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
-			setRegistryName("tao_ti_honey_green_tea");
+			setRegistryName("tao_ti_mandarin_lemon");
 		}
 
 		@Override
@@ -56,7 +56,7 @@ public class TaoTiHoneyGreenTeaItem extends HongkongdrinksModElements.ModElement
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				TaoTiHoneyGreenTeaOnFoodRightClickedProcedure.executeProcedure($_dependencies);
+				TaoTiMandarinLemonOnFoodRightClickedProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}

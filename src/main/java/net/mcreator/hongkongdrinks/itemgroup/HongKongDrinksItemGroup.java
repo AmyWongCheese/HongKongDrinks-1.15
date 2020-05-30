@@ -13,7 +13,7 @@ import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class HongKongDrinksItemGroup extends HongkongdrinksModElements.ModElement {
 	public HongKongDrinksItemGroup(HongkongdrinksModElements instance) {
-		super(instance, 2);
+		super(instance, 8);
 	}
 
 	@Override

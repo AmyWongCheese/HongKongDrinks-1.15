@@ -16,6 +16,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -32,25 +33,26 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.hongkongdrinks.procedures.TaoTiMetaGreenTeaEntityEntityIsHurtProcedure;
+import net.mcreator.hongkongdrinks.procedures.TaoTiMandarinLemonEntityEntityIsHurtProcedure;
+import net.mcreator.hongkongdrinks.item.TaoTiMandarinLemonItem;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class TaoTiMetaGreenTeaEntityEntity extends HongkongdrinksModElements.ModElement {
+public class TaoTiMandarinLemonEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
-	public TaoTiMetaGreenTeaEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 19);
+	public TaoTiMandarinLemonEntityEntity(HongkongdrinksModElements instance) {
+		super(instance, 36);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.2f, 0.5f))
-						.build("tao_ti_meta_green_tea_entity").setRegistryName("tao_ti_meta_green_tea_entity");
+				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.5f, 0.2f))
+						.build("tao_ti_mandarin_lemon_entity").setRegistryName("tao_ti_mandarin_lemon_entity");
 		elements.entities.add(() -> entity);
 	}
 
@@ -67,10 +69,10 @@ public class TaoTiMetaGreenTeaEntityEntity extends HongkongdrinksModElements.Mod
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new Modeltaotigreenteabottle1(), 0.05f) {
+			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.05f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("hongkongdrinks:textures/taotigreenteabottle_e.png");
+					return new ResourceLocation("hongkongdrinks:textures/taotimandarinlemon_e.png");
 				}
 			};
 		});
@@ -105,6 +107,7 @@ public class TaoTiMetaGreenTeaEntityEntity extends HongkongdrinksModElements.Mod
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(TaoTiMandarinLemonItem.block, (int) (1)));
 		}
 
 		@Override
@@ -141,7 +144,7 @@ public class TaoTiMetaGreenTeaEntityEntity extends HongkongdrinksModElements.Mod
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				TaoTiMetaGreenTeaEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
+				TaoTiMandarinLemonEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;
@@ -176,15 +179,14 @@ public class TaoTiMetaGreenTeaEntityEntity extends HongkongdrinksModElements.Mod
 	// Made with Blockbench 3.5.2
 	// Exported for Minecraft version 1.15
 	// Paste this class into your mod and generate all required imports
-	public static class Modeltaotigreenteabottle1 extends EntityModel<Entity> {
+	public static class Modelvitalemontea1 extends EntityModel<Entity> {
 		private final ModelRenderer bone;
-		public Modeltaotigreenteabottle1() {
-			textureWidth = 20;
-			textureHeight = 20;
+		public Modelvitalemontea1() {
+			textureWidth = 16;
+			textureHeight = 16;
 			bone = new ModelRenderer(this);
 			bone.setRotationPoint(0.0F, 24.0F, 0.0F);
-			bone.setTextureOffset(0, 0).addBox(-2.0F, -12.0F, -2.0F, 4.0F, 12.0F, 4.0F, 0.0F, false);
-			bone.setTextureOffset(12, 0).addBox(-1.0F, -14.0F, -1.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
+			bone.setTextureOffset(0, 0).addBox(-2.0F, -6.0F, -1.0F, 4.0F, 6.0F, 2.0F, 0.0F, false);
 		}
 
 		@Override

@@ -13,7 +13,7 @@
     {
       "name": "HongKongDrinks",
       "type": "tab",
-      "sortid": 2,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "VitaLemonTeaFoodEaten",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -39,7 +39,7 @@
     {
       "name": "VitaLemonTeaEntity",
       "type": "mob",
-      "sortid": 4,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -48,7 +48,7 @@
     {
       "name": "VitaLemonTeaEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 5,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -81,7 +81,7 @@
     {
       "name": "VitaLemonTeaOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 12,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -114,7 +114,7 @@
     {
       "name": "VitaLemonTeaRecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 13,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -123,7 +123,7 @@
     {
       "name": "Honey",
       "type": "tag",
-      "sortid": 8,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -132,7 +132,7 @@
     {
       "name": "VitaHoneyLimeDrink",
       "type": "food",
-      "sortid": 9,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -141,7 +141,7 @@
     {
       "name": "VitaHoneyLimeEntity",
       "type": "mob",
-      "sortid": 10,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -150,7 +150,7 @@
     {
       "name": "VitaHoneyLimeEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -183,7 +183,7 @@
     {
       "name": "VitaHoneyLimeDrinkOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 17,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -216,7 +216,7 @@
     {
       "name": "VitaHoneyLimeRecipe",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 18,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -225,7 +225,7 @@
     {
       "name": "TaoTiMetaGreenTea",
       "type": "food",
-      "sortid": 14,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -234,7 +234,7 @@
     {
       "name": "TaoTiMetaGreenTeaEntity",
       "type": "mob",
-      "sortid": 15,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -243,7 +243,7 @@
     {
       "name": "TaoTiMetaGreenTeaEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -276,7 +276,7 @@
     {
       "name": "TaoTiMetaGreenTeaOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 17,
+      "sortid": 21,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -309,7 +309,7 @@
     {
       "name": "TaoTiMetaGreenTeaRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 22,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -318,7 +318,7 @@
     {
       "name": "TaoTiMetaTea",
       "type": "food",
-      "sortid": 19,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -327,7 +327,7 @@
     {
       "name": "TaoTiMetaTeaEntity",
       "type": "mob",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -336,7 +336,7 @@
     {
       "name": "TaoTiMetaTeaEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -369,7 +369,7 @@
     {
       "name": "TaoTiMetaTeaOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 25,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -402,7 +402,7 @@
     {
       "name": "TaoTiMetaTeaRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 26,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -411,7 +411,7 @@
     {
       "name": "TaoTiHoneyGreenTea",
       "type": "food",
-      "sortid": 24,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -420,7 +420,7 @@
     {
       "name": "TaoTiHoneyGreenTeaEntity",
       "type": "mob",
-      "sortid": 25,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -429,7 +429,7 @@
     {
       "name": "TaoTiHoneyGreenTeaEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 26,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -462,7 +462,7 @@
     {
       "name": "TaoTiHoneyGreenTeaOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 29,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -495,7 +495,7 @@
     {
       "name": "TaoTiHoneyGreenTeaRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 30,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -504,7 +504,7 @@
     {
       "name": "VitaAppleGreenTea",
       "type": "food",
-      "sortid": 29,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -513,7 +513,7 @@
     {
       "name": "VitaAppleGreenTeaEntity",
       "type": "mob",
-      "sortid": 30,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -522,7 +522,7 @@
     {
       "name": "VitaAppleGreenTeaEntityEntityIsHurt",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -555,7 +555,7 @@
     {
       "name": "VitaAppleGreenTeaOnFoodRightClicked",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 33,
       "compiles": true,
       "locked_code": true,
       "ids": {},
@@ -588,11 +588,104 @@
     {
       "name": "VitaAppleGreenTeaRecipe",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 34,
       "compiles": true,
       "locked_code": true,
       "ids": {},
       "registry_name": "vita_apple_green_tea_recipe"
+    },
+    {
+      "name": "TaoTiMandarinLemon",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_mandarin_lemon"
+    },
+    {
+      "name": "TaoTiMandarinLemonRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tao_ti_mandarin_lemon_recipe"
+    },
+    {
+      "name": "TaoTiMandarinLemonEntity",
+      "type": "mob",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_mandarin_lemon_entity"
+    },
+    {
+      "name": "TaoTiMandarinLemonEntityEntityIsHurt",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tao_ti_mandarin_lemon_entity_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TaoTiMandarinLemonOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "tao_ti_mandarin_lemon_on_food_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -601,9 +694,11 @@
     "en_us": {
       "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
       "item.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea Spawn Egg",
-      "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
       "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea",
+      "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
+      "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon Spawn Egg",
       "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
       "entity.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea",
       "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
@@ -612,6 +707,7 @@
       "item.hongkongdrinks.tao_ti_meta_tea": "Tao Ti Supreme Meta Tea",
       "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
       "entity.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon": "Tao Ti Mandarin Lemon",
       "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
       "itemGroup.tabhong_kong_drinks": "Hong Kong Drinks",
       "entity.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink",

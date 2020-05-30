@@ -29,6 +29,12 @@
         "0": "applegreentea"
       },
       "name": "applegreentea"
+    },
+    "taotimandarinlemon": {
+      "map": {
+        "0": "taotimandarinlemon"
+      },
+      "name": "taotimandarinlemon"
     }
   }
 }

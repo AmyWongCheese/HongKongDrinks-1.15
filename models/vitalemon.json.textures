@@ -131,6 +131,12 @@
         "0": "ygcoconutmilk"
       },
       "name": "ygcoconutmilk"
+    },
+    "ygct": {
+      "map": {
+        "0": "ygct"
+      },
+      "name": "ygct"
     }
   }
 }

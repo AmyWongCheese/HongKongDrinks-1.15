@@ -1,8 +1,8 @@
 {
   "item.hongkongdrinks.healthworks_rock_sugar_with_pear_drink": "Healthworks Rock Sugar With Pear Drink",
   "entity.hongkongdrinks.yg_pineapple_juice_entity": "Yeung Gwong Pineapple Juice",
-  "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea",
   "entity.hongkongdrinks.vita_choco_milk_entity": "Vita Chocolate Milk",
+  "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea",
   "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon",
   "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
   "entity.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea",
@@ -31,6 +31,8 @@
   "item.hongkongdrinks.tao_ti_grape_juice": "Tao Ti Kyoho Grape Juice",
   "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
   "item.hongkongdrinks.vita_guava_juice": "Vita Guava Juice",
+  "entity.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink",
+  "item.hongkongdrinks.vita_imperatae_cane_drink": "Vita Imperatae Cane Drink",
   "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice",
   "item.hongkongdrinks.yg_mandarin_tea": "Yeung Gwong Mandarin Tea",
   "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",

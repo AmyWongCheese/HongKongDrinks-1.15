@@ -119,6 +119,18 @@
         "0": "vitasoyamilk"
       },
       "name": "vitasoyamilk"
+    },
+    "ygapplejuice": {
+      "map": {
+        "0": "ygapplejuice"
+      },
+      "name": "ygapplejuice"
+    },
+    "ygcoconutmilk": {
+      "map": {
+        "0": "ygcoconutmilk"
+      },
+      "name": "ygcoconutmilk"
     }
   }
 }

@@ -101,6 +101,12 @@
         "0": "vitaimperatae"
       },
       "name": "vitaimperatae"
+    },
+    "vitamaltsoyamilk": {
+      "map": {
+        "0": "vitamaltsoyamilk"
+      },
+      "name": "vitamaltsoyamilk"
     }
   }
 }

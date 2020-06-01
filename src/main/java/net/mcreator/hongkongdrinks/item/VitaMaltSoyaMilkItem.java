@@ -13,17 +13,17 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
+import net.mcreator.hongkongdrinks.procedures.VitaMaltSoyaMilkOnFoodRightClickedProcedure;
 import net.mcreator.hongkongdrinks.procedures.VitaLemonTeaFoodEatenProcedure;
-import net.mcreator.hongkongdrinks.procedures.VitaChocolateMilkOnFoodRightClickedProcedure;
 import net.mcreator.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class VitaChocolateMilkItem extends HongkongdrinksModElements.ModElement {
-	@ObjectHolder("hongkongdrinks:vita_chocolate_milk")
+public class VitaMaltSoyaMilkItem extends HongkongdrinksModElements.ModElement {
+	@ObjectHolder("hongkongdrinks:vita_malt_soya_milk")
 	public static final Item block = null;
-	public VitaChocolateMilkItem(HongkongdrinksModElements instance) {
-		super(instance, 97);
+	public VitaMaltSoyaMilkItem(HongkongdrinksModElements instance) {
+		super(instance, 112);
 	}
 
 	@Override
@@ -34,7 +34,7 @@ public class VitaChocolateMilkItem extends HongkongdrinksModElements.ModElement 
 		public FoodItemCustom() {
 			super(new Item.Properties().group(HongKongDrinksItemGroup.tab).maxStackSize(64)
 					.food((new Food.Builder()).hunger(4).saturation(0.3f).build()));
-			setRegistryName("vita_chocolate_milk");
+			setRegistryName("vita_malt_soya_milk");
 		}
 
 		@Override
@@ -56,7 +56,7 @@ public class VitaChocolateMilkItem extends HongkongdrinksModElements.ModElement 
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				VitaChocolateMilkOnFoodRightClickedProcedure.executeProcedure($_dependencies);
+				VitaMaltSoyaMilkOnFoodRightClickedProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}

@@ -3,9 +3,9 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "vitachocomilk",
-    "customModelName": "vitalemon:vitachoco",
-    "name": "Vita Chocolate Milk",
+    "texture": "vitamaltsoyamilk",
+    "customModelName": "vitalemon:vitamaltsoyamilk",
+    "name": "Vita Malted Soya Milk",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:HongKongDrinks"
@@ -19,7 +19,7 @@
     "animation": "drink",
     "hasGlow": false,
     "onRightClicked": {
-      "name": "VitaChocolateMilkOnFoodRightClicked"
+      "name": "VitaMaltSoyaMilkOnFoodRightClicked"
     },
     "onEaten": {
       "name": "VitaLemonTeaFoodEaten"

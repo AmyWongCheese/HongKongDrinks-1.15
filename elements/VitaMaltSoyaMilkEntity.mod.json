@@ -67,7 +67,7 @@
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:VitaMaltSoyaMilk"
     },
     "livingSound": {
       "value": ""

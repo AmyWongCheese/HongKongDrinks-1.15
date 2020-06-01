@@ -16,6 +16,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -33,6 +34,7 @@ import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
 import net.mcreator.hongkongdrinks.procedures.VitaImperataeCaneDrinkEntityEntityIsHurtProcedure;
+import net.mcreator.hongkongdrinks.item.VitaImperataeCaneDrinkItem;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
@@ -105,6 +107,7 @@ public class VitaImperataeCaneDrinkEntityEntity extends HongkongdrinksModElement
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(VitaImperataeCaneDrinkItem.block, (int) (1)));
 		}
 
 		@Override

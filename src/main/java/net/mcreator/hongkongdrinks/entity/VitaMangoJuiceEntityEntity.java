@@ -33,26 +33,26 @@ import net.minecraft.client.renderer.model.ModelRenderer;
 import net.minecraft.client.renderer.entity.model.EntityModel;
 import net.minecraft.client.renderer.entity.MobRenderer;
 
-import net.mcreator.hongkongdrinks.procedures.VitaGuavaJuiceEntityEntityIsHurtProcedure;
-import net.mcreator.hongkongdrinks.item.VitaGuavaJuiceItem;
+import net.mcreator.hongkongdrinks.procedures.VitaMangoJuiceEntityEntityIsHurtProcedure;
+import net.mcreator.hongkongdrinks.item.VitaMangoJuiceItem;
 import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class VitaGuavaJuiceEntityEntity extends HongkongdrinksModElements.ModElement {
+public class VitaMangoJuiceEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
-	public VitaGuavaJuiceEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 103);
+	public VitaMangoJuiceEntityEntity(HongkongdrinksModElements instance) {
+		super(instance, 118);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.2f, 0.5f))
-						.build("vita_guava_juice_entity").setRegistryName("vita_guava_juice_entity");
+				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
+						.build("vita_mango_juice_entity").setRegistryName("vita_mango_juice_entity");
 		elements.entities.add(() -> entity);
 	}
 
@@ -69,10 +69,10 @@ public class VitaGuavaJuiceEntityEntity extends HongkongdrinksModElements.ModEle
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.05f) {
+			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("hongkongdrinks:textures/vitaguava_e.png");
+					return new ResourceLocation("hongkongdrinks:textures/vitamango_e.png");
 				}
 			};
 		});
@@ -107,7 +107,7 @@ public class VitaGuavaJuiceEntityEntity extends HongkongdrinksModElements.ModEle
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(VitaGuavaJuiceItem.block, (int) (1)));
+			this.entityDropItem(new ItemStack(VitaMangoJuiceItem.block, (int) (1)));
 		}
 
 		@Override
@@ -144,7 +144,7 @@ public class VitaGuavaJuiceEntityEntity extends HongkongdrinksModElements.ModEle
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				VitaGuavaJuiceEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
+				VitaMangoJuiceEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;

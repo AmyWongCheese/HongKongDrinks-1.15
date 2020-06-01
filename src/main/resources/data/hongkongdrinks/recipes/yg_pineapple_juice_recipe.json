@@ -12,14 +12,11 @@
       "tag": "forge:sugar"
     },
     {
-      "tag": "forge:fruits/lemon"
-    },
-    {
-      "tag": "forge:crops/tealeaf"
+      "tag": "forge:fruits/pineapple"
     }
   ],
   "result": {
-    "item": "hongkongdrinks:vita_lemon_tea",
+    "item": "hongkongdrinks:yg_pineapple_juice",
     "count": 1
   }
 }

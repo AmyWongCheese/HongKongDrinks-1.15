@@ -9,7 +9,7 @@
       "item": "minecraft:black_dye"
     },
     {
-      "item": "afterthedrizzle:oolong_tea_bag"
+      "tag": "forge:oolong_tea"
     },
     {
       "tag": "forge:crops/barley"

@@ -6,20 +6,20 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "minecraft:yellow_dye"
+      "item": "minecraft:red_dye"
     },
     {
       "tag": "forge:sugar"
     },
     {
-      "tag": "forge:fruits/lemon"
+      "tag": "forge:fruits/hawhorn"
     },
     {
-      "tag": "forge:crops/tealeaf"
+      "tag": "forge:fruits/apple"
     }
   ],
   "result": {
-    "item": "hongkongdrinks:vita_lemon_tea",
+    "item": "hongkongdrinks:healthworks_hawhorn_apple_drink",
     "count": 1
   }
 }

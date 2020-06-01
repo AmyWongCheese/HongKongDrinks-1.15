@@ -1,0 +1,16 @@
+{
+  "_fv": 8,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:VitaLemonTea"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "fruits/lemon",
+    "namespace": "forge"
+  }
+}

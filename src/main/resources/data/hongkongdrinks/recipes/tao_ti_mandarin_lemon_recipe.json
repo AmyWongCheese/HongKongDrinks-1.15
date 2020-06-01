@@ -12,10 +12,10 @@
       "tag": "forge:sugar"
     },
     {
-      "item": "fruittrees:mandarin"
+      "tag": "forge:fruits/mandarin"
     },
     {
-      "tag": "forge:crops/lemon"
+      "tag": "forge:fruits/lemon"
     }
   ],
   "result": {

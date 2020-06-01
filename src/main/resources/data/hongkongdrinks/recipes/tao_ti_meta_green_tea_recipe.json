@@ -9,10 +9,10 @@
       "item": "minecraft:black_dye"
     },
     {
-      "item": "afterthedrizzle:green_tea_bag"
+      "tag": "forge:green_tea"
     },
     {
-      "tag": "forge:crops/buckwheat"
+      "tag": "forge:grain"
     }
   ],
   "result": {

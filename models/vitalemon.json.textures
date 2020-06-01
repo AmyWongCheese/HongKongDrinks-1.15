@@ -83,6 +83,12 @@
         "0": "vitablackcurrantjuice"
       },
       "name": "vitablackcurrantjuice"
+    },
+    "vitachoco": {
+      "map": {
+        "0": "vitachocomilk"
+      },
+      "name": "vitachoco"
     }
   }
 }

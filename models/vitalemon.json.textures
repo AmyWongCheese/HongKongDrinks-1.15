@@ -149,6 +149,12 @@
         "0": "ygmango"
       },
       "name": "ygmango"
+    },
+    "ygmelonmilk": {
+      "map": {
+        "0": "ygmelonmilk"
+      },
+      "name": "ygmelonmilk"
     }
   }
 }

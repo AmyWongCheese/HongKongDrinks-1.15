@@ -113,6 +113,12 @@
         "0": "vitamango"
       },
       "name": "vitamango"
+    },
+    "vitasoyamilk": {
+      "map": {
+        "0": "vitasoyamilk"
+      },
+      "name": "vitasoyamilk"
     }
   }
 }

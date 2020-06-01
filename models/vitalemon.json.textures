@@ -65,6 +65,12 @@
         "0": "pineapplejuice"
       },
       "name": "pineapplejuice"
+    },
+    "taotigrapejuice": {
+      "map": {
+        "0": "taotigrapejuice"
+      },
+      "name": "taotigrapejuice"
     }
   }
 }

@@ -10,8 +10,10 @@
   "item.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice Spawn Egg",
   "item.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink Spawn Egg",
   "item.hongkongdrinks.yg_mandarin_tea_entity": "Yeung Gwong Mandarin Tea Spawn Egg",
+  "item.hongkongdrinks.tao_ti_oolong_tea": "Tao Ti Supreme Oolong Tea",
   "item.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea Spawn Egg",
   "item.hongkongdrinks.tao_ti_meta_tea": "Tao Ti Supreme Meta Tea",
+  "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea",
   "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "Healthworks Hawhorn Apple Drink",
   "entity.hongkongdrinks.yg_mandarin_tea_entity": "Yeung Gwong Mandarin Tea",
   "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "Healthworks Rock Sugar With Pear Drink",
@@ -36,6 +38,7 @@
   "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
   "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
   "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
+  "item.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea Spawn Egg",
   "item.hongkongdrinks.yg_mandarin_tea": "Yeung Gwong Mandarin Tea",
   "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",
   "item.hongkongdrinks.vita_apple_green_tea": "Vita Apple Green Tea"

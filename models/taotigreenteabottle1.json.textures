@@ -5,6 +5,12 @@
         "0": "taotigreenteabottle"
       },
       "name": "default"
+    },
+    "taotiwhiteteabottle": {
+      "map": {
+        "0": "taotiwhiteteabottle"
+      },
+      "name": "taotiwhiteteabottle"
     }
   }
 }

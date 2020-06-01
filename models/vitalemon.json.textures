@@ -89,6 +89,12 @@
         "0": "vitachocomilk"
       },
       "name": "vitachoco"
+    },
+    "vitaguava": {
+      "map": {
+        "0": "vitaguava"
+      },
+      "name": "vitaguava"
     }
   }
 }

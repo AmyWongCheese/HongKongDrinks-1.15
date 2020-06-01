@@ -2,11 +2,11 @@
   "_fv": 8,
   "_type": "mob",
   "definition": {
-    "mobName": "Yeung Gwong Pineapple Juice",
+    "mobName": "Vita Guava Juice",
     "mobLabel": "",
     "mobModelName": "Modelvitalemontea1",
-    "mobModelTexture": "pineapplejuice_e.png",
-    "mobModelGlowTexture": "pineapplejuice_e.png",
+    "mobModelTexture": "vitaguava_e.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 0.2,
     "modelHeight": 0.5,
     "modelShadowSize": 0.05,
@@ -67,7 +67,7 @@
     "immuneToPotions": true,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:YGPineappleJuice"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -87,7 +87,7 @@
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
     "whenMobIsHurt": {
-      "name": "YGPineappleJuiceEntityEntityIsHurt"
+      "name": "VitaGuavaJuiceEntityEntityIsHurt"
     },
     "hasAI": true,
     "aiBase": "(none)",

@@ -51,7 +51,7 @@ public class VitaMangoJuiceEntityEntity extends HongkongdrinksModElements.ModEle
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
+				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.2f, 0.5f))
 						.build("vita_mango_juice_entity").setRegistryName("vita_mango_juice_entity");
 		elements.entities.add(() -> entity);
 	}
@@ -69,7 +69,7 @@ public class VitaMangoJuiceEntityEntity extends HongkongdrinksModElements.ModEle
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.5f) {
+			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.05f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("hongkongdrinks:textures/vitamango_e.png");

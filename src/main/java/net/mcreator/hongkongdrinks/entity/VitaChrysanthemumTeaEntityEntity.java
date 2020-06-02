@@ -44,7 +44,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class VitaChrysanthemumTeaEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public VitaChrysanthemumTeaEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 67);
+		super(instance, 84);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

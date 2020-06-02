@@ -8,7 +8,7 @@ import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class VitaLemonTeaFoodEatenProcedure extends HongkongdrinksModElements.ModElement {
 	public VitaLemonTeaFoodEatenProcedure(HongkongdrinksModElements instance) {
-		super(instance, 9);
+		super(instance, 32);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

@@ -16,7 +16,7 @@ import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class VitaBlackcurrantJuiceEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
 	public VitaBlackcurrantJuiceEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
-		super(instance, 94);
+		super(instance, 106);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

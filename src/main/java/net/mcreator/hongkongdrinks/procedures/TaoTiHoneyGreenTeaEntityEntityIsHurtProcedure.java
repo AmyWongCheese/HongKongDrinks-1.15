@@ -16,7 +16,7 @@ import net.mcreator.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class TaoTiHoneyGreenTeaEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
 	public TaoTiHoneyGreenTeaEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
-		super(instance, 28);
+		super(instance, 51);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

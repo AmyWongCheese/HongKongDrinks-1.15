@@ -1,0 +1,194 @@
+{
+  "_fv": 8,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 470,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Vending Machine",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Vending Machine",
+          "x": 354,
+          "y": 24
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.EMERALD"
+          },
+          "color": {
+            "value": -13395712,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "name": "Slot #0",
+          "x": 552,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot2"
+          },
+          "name": "Slot #2",
+          "x": 300,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "InputCoin"
+          },
+          "width": 60,
+          "height": 40,
+          "name": "Buy",
+          "x": 480,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": true,
+          "name": "Slot #1",
+          "x": 264,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": true,
+          "name": "Slot #3",
+          "x": 390,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot4"
+          },
+          "name": "Slot #4",
+          "x": 426,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": true,
+          "name": "Slot #5",
+          "x": 516,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot6"
+          },
+          "name": "Slot #6",
+          "x": 552,
+          "y": 60
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 7,
+          "disableStackInteraction": true,
+          "name": "Slot #7",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 8,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot8"
+          },
+          "name": "Slot #8",
+          "x": 300,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": true,
+          "name": "Slot #9",
+          "x": 390,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 10,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot10"
+          },
+          "name": "Slot #10",
+          "x": 426,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 11,
+          "disableStackInteraction": true,
+          "name": "Slot #11",
+          "x": 516,
+          "y": 114
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 12,
+          "disableStackInteraction": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot12"
+          },
+          "name": "Slot #12",
+          "x": 552,
+          "y": 114
+        }
+      }
+    ]
+  }
+}

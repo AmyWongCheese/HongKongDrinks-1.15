@@ -1,0 +1,8 @@
+{
+  "parent": "hongkongdrinks:custom/vendingmachine",
+  "textures": {
+    "all": "hongkongdrinks:blocks/vending",
+    "particle": "hongkongdrinks:blocks/vending",
+    "0": "hongkongdrinks:blocks/vending"
+  }
+}

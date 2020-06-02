@@ -155,6 +155,18 @@
         "0": "ygmelonmilk"
       },
       "name": "ygmelonmilk"
+    },
+    "ygorange": {
+      "map": {
+        "0": "ygorange"
+      },
+      "name": "ygorange"
+    },
+    "ygpeachtea": {
+      "map": {
+        "0": "ygpeachtea"
+      },
+      "name": "ygpeachtea"
     }
   }
 }

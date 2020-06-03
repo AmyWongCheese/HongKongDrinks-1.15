@@ -2,7 +2,7 @@
   "_fv": 8,
   "_type": "block",
   "definition": {
-    "texture": "vending",
+    "texture": "vending1",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -16,7 +16,7 @@
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
-    "mz": 0.0,
+    "mz": 0.5,
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,

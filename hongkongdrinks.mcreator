@@ -3183,6 +3183,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "vending_machine_recipe"
+    },
+    {
+      "name": "Fiber",
+      "type": "tag",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fiber"
+    },
+    {
+      "name": "Paper",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "paper"
     }
   ],
   "variable_elements": [],

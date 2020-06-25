@@ -11,14 +11,14 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.block.Blocks;
 
-import com.neocosplayer.hongkongdrinks.item.TaoTiGrapeJuiceItem;
-import com.neocosplayer.hongkongdrinks.entity.TaoTiGrapeJuiceEntityEntity;
+import com.neocosplayer.hongkongdrinks.item.HFTGinsengHoneyItem;
+import com.neocosplayer.hongkongdrinks.entity.HFTGinsengHoneyEntityEntity;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class TaoTiGrapeJuiceOnFoodRightClickedProcedure extends HongkongdrinksModElements.ModElement {
-	public TaoTiGrapeJuiceOnFoodRightClickedProcedure(HongkongdrinksModElements instance) {
-		super(instance, 100);
+public class HFTGinsengHoneyOnFoodRightClickedProcedure extends HongkongdrinksModElements.ModElement {
+	public HFTGinsengHoneyOnFoodRightClickedProcedure(HongkongdrinksModElements instance) {
+		super(instance, 195);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
@@ -27,23 +27,23 @@ public class TaoTiGrapeJuiceOnFoodRightClickedProcedure extends HongkongdrinksMo
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		Entity entityToSpawn = new TaoTiGrapeJuiceEntityEntity.CustomEntity(TaoTiGrapeJuiceEntityEntity.entity, world);
+		Entity entityToSpawn = new HFTGinsengHoneyEntityEntity.CustomEntity(HFTGinsengHoneyEntityEntity.entity, world);
 		
-		if ((((entity.isSneaking()) && (new ItemStack(TaoTiGrapeJuiceItem.block, (int) (1))
+		if ((((entity.isSneaking()) && (new ItemStack(HFTGinsengHoneyItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
-				|| ((new ItemStack(TaoTiGrapeJuiceItem.block, (int) (1))
+				|| ((new ItemStack(HFTGinsengHoneyItem.block, (int) (1))
 						.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemOffhand() : ItemStack.EMPTY).getItem())
 						&& (new ItemStack(Blocks.AIR, (int) (1))
 								.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY)
 										.getItem())))) {
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory
-						.clearMatchingItems(p -> new ItemStack(TaoTiGrapeJuiceItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
+						.clearMatchingItems(p -> new ItemStack(HFTGinsengHoneyItem.block, (int) (1)).getItem() == p.getItem(), (int) 1);
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
-			DrinkPlaced.place(entity, world, entityToSpawn);		
+					
+			DrinkPlaced.place(entity, world, entityToSpawn);
 
 		}
 	}

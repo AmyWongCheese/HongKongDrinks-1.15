@@ -3,6 +3,7 @@ package com.neocosplayer.hongkongdrinks.procedures;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.World;
+import net.minecraft.util.math.RayTraceContext;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Direction;
@@ -64,25 +65,69 @@ public class TaoTiMetaGreenTeaOnFoodRightClickedProcedure extends Hongkongdrinks
 			if (((entity.getHorizontalFacing()) == Direction.NORTH)) {
 				if (!world.isRemote) {
 					Entity entityToSpawn = new TaoTiMetaGreenTeaEntityEntity.CustomEntity(TaoTiMetaGreenTeaEntityEntity.entity, world);
-					entityToSpawn.setLocationAndAngles((x + 0.5), (y + 1), (z - 0.5), world.rand.nextFloat() * 360F, 0);
+					entityToSpawn.setLocationAndAngles(
+							((entity.world
+									.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+											entity.getEyePosition(1f)
+													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
+									.getPos().getX()) + 0),
+							(y + 1),
+							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + 0),
+							world.rand.nextFloat() * 360F, 0);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (((entity.getHorizontalFacing()) == Direction.SOUTH)) {
 				if (!world.isRemote) {
 					Entity entityToSpawn = new TaoTiMetaGreenTeaEntityEntity.CustomEntity(TaoTiMetaGreenTeaEntityEntity.entity, world);
-					entityToSpawn.setLocationAndAngles((x + 0.5), (y + 1), (z + 1.5), world.rand.nextFloat() * 360F, 0);
+					entityToSpawn.setLocationAndAngles(
+							((entity.world
+									.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+											entity.getEyePosition(1f)
+													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
+									.getPos().getX()) + 0),
+							(y + 1),
+							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + 0),
+							world.rand.nextFloat() * 360F, 0);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (((entity.getHorizontalFacing()) == Direction.EAST)) {
 				if (!world.isRemote) {
 					Entity entityToSpawn = new TaoTiMetaGreenTeaEntityEntity.CustomEntity(TaoTiMetaGreenTeaEntityEntity.entity, world);
-					entityToSpawn.setLocationAndAngles((x + 1.5), (y + 1), (z + 0.5), world.rand.nextFloat() * 360F, 0);
+					entityToSpawn.setLocationAndAngles(
+							((entity.world
+									.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+											entity.getEyePosition(1f)
+													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
+									.getPos().getX()) + 0),
+							(y + 1),
+							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + 0),
+							world.rand.nextFloat() * 360F, 0);
 					world.addEntity(entityToSpawn);
 				}
 			} else if (((entity.getHorizontalFacing()) == Direction.WEST)) {
 				if (!world.isRemote) {
 					Entity entityToSpawn = new TaoTiMetaGreenTeaEntityEntity.CustomEntity(TaoTiMetaGreenTeaEntityEntity.entity, world);
-					entityToSpawn.setLocationAndAngles((x - 0.5), (y + 1), (z + 0.5), world.rand.nextFloat() * 360F, 0);
+					entityToSpawn.setLocationAndAngles(
+							((entity.world
+									.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+											entity.getEyePosition(1f)
+													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
+									.getPos().getX()) + 0),
+							(y + 1),
+							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
+									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + 0),
+							world.rand.nextFloat() * 360F, 0);
 					world.addEntity(entityToSpawn);
 				}
 			}

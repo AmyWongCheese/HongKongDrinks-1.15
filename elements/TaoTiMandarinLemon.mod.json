@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "taotimandarinlemon",
+    "texture": "yglemonteaitem",
     "customModelName": "vitalemon:taotimandarinlemon",
     "name": "Tao Ti Mandarin Lemon",
     "specialInfo": [],

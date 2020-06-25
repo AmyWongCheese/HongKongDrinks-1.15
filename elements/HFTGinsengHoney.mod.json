@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "hftginsenghoney",
+    "texture": "yglemonteaitem",
     "customModelName": "hungfooktong:hftginsenghoney",
     "name": "Hung Fook Tong American Ginseng With Honey Drink",
     "specialInfo": [],

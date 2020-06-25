@@ -4,8 +4,8 @@
   "definition": {
     "renderType": 1,
     "texture": "yglemonteaitem",
-    "customModelName": "vitalemon:ygorange",
-    "name": "Yeung Gwong Orange Juice",
+    "customModelName": "vitalemon:vitamintchoco",
+    "name": "Vita Mint Chocolate Soya Milk",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:HongKongDrinks"
@@ -19,7 +19,7 @@
     "animation": "drink",
     "hasGlow": false,
     "onRightClicked": {
-      "name": "YGOrangeJuiceOnFoodRightClicked"
+      "name": "VitaMintChocoSoyaMilkOnFoodRightClicked"
     },
     "onEaten": {
       "name": "VitaLemonTeaFoodEaten"

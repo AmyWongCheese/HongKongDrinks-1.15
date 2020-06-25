@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "ygmango",
+    "texture": "yglemonteaitem",
     "customModelName": "vitalemon:ygmango",
     "name": "Yeung Gwong Mango Juice",
     "specialInfo": [],

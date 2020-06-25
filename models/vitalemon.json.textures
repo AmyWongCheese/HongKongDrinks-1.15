@@ -197,6 +197,12 @@
         "0": "vitamintchoco"
       },
       "name": "vitamintchoco"
+    },
+    "vitasugarcane": {
+      "map": {
+        "0": "vitasugarcane"
+      },
+      "name": "vitasugarcane"
     }
   }
 }

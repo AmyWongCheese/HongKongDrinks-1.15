@@ -3911,6 +3911,99 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "vita_mint_choco_soya_milk_recipe"
+    },
+    {
+      "name": "VitaSugarcaneJuice",
+      "type": "food",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vita_sugarcane_juice"
+    },
+    {
+      "name": "VitaSugarcaneJuiceEntityEntityIsHurt",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vita_sugarcane_juice_entity_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VitaSugarcaneJuiceEntity",
+      "type": "mob",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vita_sugarcane_juice_entity"
+    },
+    {
+      "name": "VitaSugarcaneJuiceOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "vita_sugarcane_juice_on_food_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VitaSugarcaneJuiceRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "vita_sugarcane_juice_recipe"
     }
   ],
   "variable_elements": [],
@@ -3924,11 +4017,11 @@
       "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "維他菊花茶",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
       "entity.hongkongdrinks.hft_passion_fruit_entity": "鴻福堂百香果蜜",
-      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
-      "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
       "item.hongkongdrinks.tao_ti_honey_green_tea": "道地蜂蜜綠茶",
-      "entity.hongkongdrinks.yg_coconut_milk_entity": "陽光椰子豆奶",
+      "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "道地極品白茶",
+      "entity.hongkongdrinks.yg_coconut_milk_entity": "陽光椰子豆奶",
       "item.hongkongdrinks.yg_peach_tea": "陽光蜜桃茶",
       "block.hongkongdrinks.vending_machine": "自動售賣機",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "維他麥精豆奶",
@@ -3948,6 +4041,7 @@
       "entity.hongkongdrinks.yg_mango_juice_entity": "陽光芒果汁",
       "item.hongkongdrinks.vita_chrysanthemum_tea": "維他菊花茶",
       "item.hongkongdrinks.vita_chocolate_milk": "維他朱古力奶",
+      "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.yg_peach_tea_entity": "陽光蜜桃茶",
       "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk",
       "item.hongkongdrinks.tao_ti_meta_green_tea": "道地極品解綠茶",
@@ -3978,6 +4072,7 @@
       "itemGroup.tabhong_kong_drinks": "香港飲品",
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "道地巨峰提子汁",
       "item.hongkongdrinks.yg_chrysanthemum_tea": "陽光菊花茶",
+      "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
       "item.hongkongdrinks.vita_lemon_tea": "維他檸檬茶",
       "item.hongkongdrinks.vita_malt_soya_milk": "維他麥精豆奶",
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
@@ -3994,6 +4089,7 @@
       "entity.hongkongdrinks.vita_mint_choco_soya_milk_entity": "Vita Mint Chocolate Soya Milk",
       "item.hongkongdrinks.yg_mandarin_tea": "陽光柑香茶",
       "item.hongkongdrinks.vita_apple_green_tea": "維他蘋果綠茶",
+      "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
       "entity.hongkongdrinks.vita_guava_juice_entity": "維他番石榴汁"
     },
     "en_us": {
@@ -4004,11 +4100,11 @@
       "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
       "entity.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink",
-      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
-      "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
       "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
-      "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
+      "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk",
+      "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
       "item.hongkongdrinks.yg_peach_tea": "Yeung Gwong Peach Tea",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk",
       "block.hongkongdrinks.vending_machine": "Vending Machine",
@@ -4028,6 +4124,7 @@
       "entity.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice",
       "item.hongkongdrinks.vita_chrysanthemum_tea": "Vita Chrysanthemum Tea",
       "item.hongkongdrinks.vita_chocolate_milk": "Vita Chocolate Milk",
+      "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.yg_peach_tea_entity": "Yeung Gwong Peach Tea",
       "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk",
       "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
@@ -4058,6 +4155,7 @@
       "itemGroup.tabhong_kong_drinks": "Hong Kong Drinks",
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice",
       "item.hongkongdrinks.yg_chrysanthemum_tea": "Yeung Gwong Chrysanthemum Tea",
+      "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
       "item.hongkongdrinks.vita_malt_soya_milk": "Vita Malted Soya Milk",
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
@@ -4074,6 +4172,7 @@
       "entity.hongkongdrinks.vita_mint_choco_soya_milk_entity": "Vita Mint Chocolate Soya Milk",
       "item.hongkongdrinks.yg_mandarin_tea": "Yeung Gwong Mandarin Tea",
       "item.hongkongdrinks.vita_apple_green_tea": "Vita Apple Green Tea",
+      "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
       "entity.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice"
     }
   },

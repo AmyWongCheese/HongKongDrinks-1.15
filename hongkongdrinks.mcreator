@@ -4283,6 +4283,90 @@
       "locked_code": true,
       "ids": {},
       "registry_name": "vita_icy_grapefruit_recipe"
+    },
+    {
+      "name": "HFTMandarinAloe",
+      "type": "food",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_mandarin_aloe"
+    },
+    {
+      "name": "HFTMandarinAloeEntityEntityIsHurt",
+      "type": "procedure",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_mandarin_aloe_entity_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HFTMandarinAloeEntity",
+      "type": "mob",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_mandarin_aloe_entity"
+    },
+    {
+      "name": "HFTMandarinAloeOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "hft_mandarin_aloe_on_food_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4303,6 +4387,7 @@
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "道地極品白茶",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "陽光椰子豆奶",
       "item.hongkongdrinks.yg_peach_tea": "陽光蜜桃茶",
+      "entity.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink",
       "block.hongkongdrinks.vending_machine": "自動售賣機",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "維他麥精豆奶",
       "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
@@ -4344,6 +4429,7 @@
       "entity.hongkongdrinks.yg_orange_juice_entity": "陽光橙汁",
       "item.hongkongdrinks.tao_ti_oolong_tea": "道地極品烏龍茶",
       "entity.hongkongdrinks.vita_mango_juice_entity": "維他芒果汁",
+      "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
       "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "道地極品烏龍茶",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "陽光檸檬茶",
       "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "健康工房冰糖雪梨",
@@ -4362,6 +4448,7 @@
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
       "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk",
       "item.hongkongdrinks.vita_ginger_soya_milk": "Vita Ginger Soya Milk",
+      "item.hongkongdrinks.hft_mandarin_aloe": "Hung Fook Tong Mandarin Juice With Aloe Drink",
       "entity.hongkongdrinks.yg_apple_juice_entity": "陽光蘋果汁",
       "entity.hongkongdrinks.tao_ti_meta_green_tea_entity": "道地極品解綠茶",
       "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "健康工房山楂蘋果",
@@ -4392,6 +4479,7 @@
       "entity.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
       "item.hongkongdrinks.yg_peach_tea": "Yeung Gwong Peach Tea",
+      "entity.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk",
       "block.hongkongdrinks.vending_machine": "Vending Machine",
       "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
@@ -4433,6 +4521,7 @@
       "entity.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice",
       "item.hongkongdrinks.tao_ti_oolong_tea": "Tao Ti Supreme Oolong Tea",
       "entity.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice",
+      "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
       "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "Yeung Gwong Lemon Tea",
       "entity.hongkongdrinks.yg_melon_milk_entity": "Yeung Gwong Melon Soya Milk",
@@ -4451,6 +4540,7 @@
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
       "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk",
       "item.hongkongdrinks.vita_ginger_soya_milk": "Vita Ginger Soya Milk",
+      "item.hongkongdrinks.hft_mandarin_aloe": "Hung Fook Tong Mandarin Juice With Aloe Drink",
       "entity.hongkongdrinks.yg_apple_juice_entity": "Yeung Gwong Apple Juice",
       "entity.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea",
       "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink",

@@ -28,7 +28,6 @@ public class HFTSaltedMandarinOnFoodRightClickedProcedure extends Hongkongdrinks
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new HFTSaltedMandarinEntityEntity.CustomEntity(HFTSaltedMandarinEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(HFTSaltedMandarinItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(HFTSaltedMandarinItem.block, (int) (1))

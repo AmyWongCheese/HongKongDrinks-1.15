@@ -21,7 +21,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class InputCoinProcedure extends HongkongdrinksModElements.ModElement {
 	public InputCoinProcedure(HongkongdrinksModElements instance) {
-		super(instance, 172);
+		super(instance, 182);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

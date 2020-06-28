@@ -13,7 +13,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class HongKongDrinksItemGroup extends HongkongdrinksModElements.ModElement {
 	public HongKongDrinksItemGroup(HongkongdrinksModElements instance) {
-		super(instance, 36);
+		super(instance, 46);
 	}
 
 	@Override

@@ -43,7 +43,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class YGPineappleJuiceEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public YGPineappleJuiceEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 94);
+		super(instance, 104);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

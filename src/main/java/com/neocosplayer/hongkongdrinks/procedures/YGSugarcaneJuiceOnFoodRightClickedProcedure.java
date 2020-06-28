@@ -28,7 +28,6 @@ public class YGSugarcaneJuiceOnFoodRightClickedProcedure extends HongkongdrinksM
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new YGSugarcaneJuiceEntityEntity.CustomEntity(YGSugarcaneJuiceEntityEntity.entity, world);
-
 		if ((((entity.isSneaking()) && (new ItemStack(YGSugarcaneJuiceItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(YGSugarcaneJuiceItem.block, (int) (1))

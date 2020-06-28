@@ -28,7 +28,6 @@ public class VitaMangoJuiceOnFoodRightClickedProcedure extends HongkongdrinksMod
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new VitaMangoJuiceEntityEntity.CustomEntity(VitaMangoJuiceEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(VitaMangoJuiceItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(VitaMangoJuiceItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class VitaMangoJuiceOnFoodRightClickedProcedure extends HongkongdrinksMod
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
 			DrinkPlaced.place(entity, world, entityToSpawn);
-
 		}
 	}
 }

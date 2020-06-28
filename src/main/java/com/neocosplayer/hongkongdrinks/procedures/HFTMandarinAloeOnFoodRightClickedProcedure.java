@@ -28,7 +28,6 @@ public class HFTMandarinAloeOnFoodRightClickedProcedure extends HongkongdrinksMo
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new HFTMandarinAloeEntityEntity.CustomEntity(HFTMandarinAloeEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(HFTMandarinAloeItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(HFTMandarinAloeItem.block, (int) (1))

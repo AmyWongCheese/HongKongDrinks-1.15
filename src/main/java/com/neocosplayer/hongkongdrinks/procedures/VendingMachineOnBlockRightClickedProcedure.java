@@ -20,7 +20,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class VendingMachineOnBlockRightClickedProcedure extends HongkongdrinksModElements.ModElement {
 	public VendingMachineOnBlockRightClickedProcedure(HongkongdrinksModElements instance) {
-		super(instance, 171);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {

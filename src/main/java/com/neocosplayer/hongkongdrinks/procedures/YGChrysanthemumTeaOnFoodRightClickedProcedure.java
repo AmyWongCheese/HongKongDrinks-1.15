@@ -28,7 +28,6 @@ public class YGChrysanthemumTeaOnFoodRightClickedProcedure extends Hongkongdrink
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new YGChrysanthemumTeaEntityEntity.CustomEntity(YGChrysanthemumTeaEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(YGChrysanthemumTeaItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(YGChrysanthemumTeaItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class YGChrysanthemumTeaOnFoodRightClickedProcedure extends Hongkongdrink
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-					
 			DrinkPlaced.place(entity, world, entityToSpawn);
-
 		}
 	}
 }

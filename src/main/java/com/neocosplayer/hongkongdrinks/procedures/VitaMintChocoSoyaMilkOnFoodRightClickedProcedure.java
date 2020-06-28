@@ -13,7 +13,7 @@ import net.minecraft.block.Blocks;
 
 import com.neocosplayer.hongkongdrinks.item.VitaMintChocoSoyaMilkItem;
 import com.neocosplayer.hongkongdrinks.entity.VitaMintChocoSoyaMilkEntityEntity;
-import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
+import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 
 @HongkongdrinksModElements.ModElement.Tag
 public class VitaMintChocoSoyaMilkOnFoodRightClickedProcedure extends HongkongdrinksModElements.ModElement {

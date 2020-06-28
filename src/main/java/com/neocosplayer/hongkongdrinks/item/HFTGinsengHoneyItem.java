@@ -23,7 +23,7 @@ public class HFTGinsengHoneyItem extends HongkongdrinksModElements.ModElement {
 	@ObjectHolder("hongkongdrinks:hft_ginseng_honey")
 	public static final Item block = null;
 	public HFTGinsengHoneyItem(HongkongdrinksModElements instance) {
-		super(instance, 33);
+		super(instance, 42);
 	}
 
 	@Override

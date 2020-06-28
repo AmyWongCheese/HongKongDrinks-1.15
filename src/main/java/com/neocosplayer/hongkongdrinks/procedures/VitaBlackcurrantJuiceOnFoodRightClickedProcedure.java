@@ -28,7 +28,6 @@ public class VitaBlackcurrantJuiceOnFoodRightClickedProcedure extends Hongkongdr
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new VitaBlackcurrantJuiceEntityEntity.CustomEntity(VitaBlackcurrantJuiceEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(VitaBlackcurrantJuiceItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(VitaBlackcurrantJuiceItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class VitaBlackcurrantJuiceOnFoodRightClickedProcedure extends Hongkongdr
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
 			DrinkPlaced.place(entity, world, entityToSpawn);
-			
 		}
 	}
 }

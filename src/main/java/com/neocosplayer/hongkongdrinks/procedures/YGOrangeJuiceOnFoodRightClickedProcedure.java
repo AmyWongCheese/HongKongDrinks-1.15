@@ -21,14 +21,13 @@ public class YGOrangeJuiceOnFoodRightClickedProcedure extends HongkongdrinksModE
 		super(instance, 164);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		Entity entity = (Entity) dependencies.get("entity");
 		int x = (int) dependencies.get("x");
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new YGOrangeJuiceEntityEntity.CustomEntity(YGOrangeJuiceEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(YGOrangeJuiceItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(YGOrangeJuiceItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class YGOrangeJuiceOnFoodRightClickedProcedure extends HongkongdrinksModE
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
-			DrinkPlaced.place(entity, world, entityToSpawn);		
-
+			DrinkPlaced.place(entity, world, entityToSpawn);
 		}
 	}
 }

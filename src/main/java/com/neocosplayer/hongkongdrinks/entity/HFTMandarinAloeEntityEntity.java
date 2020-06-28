@@ -44,7 +44,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class HFTMandarinAloeEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public HFTMandarinAloeEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 229);
+		super(instance, 239);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

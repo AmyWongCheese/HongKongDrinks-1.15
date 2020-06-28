@@ -28,7 +28,6 @@ public class VitaMaltSoyaMilkOnFoodRightClickedProcedure extends HongkongdrinksM
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new VitaMaltSoyaMilkEntityEntity.CustomEntity(VitaMaltSoyaMilkEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(VitaMaltSoyaMilkItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(VitaMaltSoyaMilkItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class VitaMaltSoyaMilkOnFoodRightClickedProcedure extends HongkongdrinksM
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
 			DrinkPlaced.place(entity, world, entityToSpawn);
-
 		}
 	}
 }

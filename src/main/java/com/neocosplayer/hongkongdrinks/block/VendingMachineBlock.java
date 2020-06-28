@@ -80,7 +80,7 @@ public class VendingMachineBlock extends HongkongdrinksModElements.ModElement {
 	@ObjectHolder("hongkongdrinks:vending_machine")
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 	public VendingMachineBlock(HongkongdrinksModElements instance) {
-		super(instance, 35);
+		super(instance, 45);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

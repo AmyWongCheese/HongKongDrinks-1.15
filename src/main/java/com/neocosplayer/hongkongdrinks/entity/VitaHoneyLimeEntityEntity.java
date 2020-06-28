@@ -44,7 +44,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class VitaHoneyLimeEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public VitaHoneyLimeEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 43);
+		super(instance, 53);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

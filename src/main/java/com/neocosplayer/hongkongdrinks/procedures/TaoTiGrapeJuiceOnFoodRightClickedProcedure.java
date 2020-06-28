@@ -28,7 +28,6 @@ public class TaoTiGrapeJuiceOnFoodRightClickedProcedure extends HongkongdrinksMo
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
 		Entity entityToSpawn = new TaoTiGrapeJuiceEntityEntity.CustomEntity(TaoTiGrapeJuiceEntityEntity.entity, world);
-		
 		if ((((entity.isSneaking()) && (new ItemStack(TaoTiGrapeJuiceItem.block, (int) (1))
 				.getItem() == ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY).getItem()))
 				|| ((new ItemStack(TaoTiGrapeJuiceItem.block, (int) (1))
@@ -42,9 +41,7 @@ public class TaoTiGrapeJuiceOnFoodRightClickedProcedure extends HongkongdrinksMo
 			world.playSound((PlayerEntity) null, x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.place")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
-
-			DrinkPlaced.place(entity, world, entityToSpawn);		
-
+			DrinkPlaced.place(entity, world, entityToSpawn);
 		}
 	}
 }

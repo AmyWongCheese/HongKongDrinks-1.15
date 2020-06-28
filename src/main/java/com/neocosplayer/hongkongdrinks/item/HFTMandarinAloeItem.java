@@ -23,7 +23,7 @@ public class HFTMandarinAloeItem extends HongkongdrinksModElements.ModElement {
 	@ObjectHolder("hongkongdrinks:hft_mandarin_aloe")
 	public static final Item block = null;
 	public HFTMandarinAloeItem(HongkongdrinksModElements instance) {
-		super(instance, 228);
+		super(instance, 43);
 	}
 
 	@Override

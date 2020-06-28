@@ -44,7 +44,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class HealthworksRockSugarWithPearEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public HealthworksRockSugarWithPearEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 71);
+		super(instance, 81);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

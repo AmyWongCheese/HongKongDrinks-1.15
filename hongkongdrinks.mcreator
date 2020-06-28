@@ -4367,6 +4367,99 @@
           }
         ]
       }
+    },
+    {
+      "name": "HFTSaltedMandarinEntityEntityIsHurt",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_salted_mandarin_entity_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HFTSaltedMandarinEntity",
+      "type": "mob",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_salted_mandarin_entity"
+    },
+    {
+      "name": "HFTSaltedMandarin",
+      "type": "food",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hft_salted_mandarin"
+    },
+    {
+      "name": "HFTSaltedMandarinOnFoodRightClicked",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "hft_salted_mandarin_on_food_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HFTSaltedMandarinRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "hft_salted_mandarin_recipe"
     }
   ],
   "variable_elements": [],
@@ -4429,6 +4522,7 @@
       "entity.hongkongdrinks.yg_orange_juice_entity": "¶§¥ú¾í¥Ä",
       "item.hongkongdrinks.tao_ti_oolong_tea": "¹D¦a·¥«~¯QÀs¯ù",
       "entity.hongkongdrinks.vita_mango_juice_entity": "ºû¥L¨~ªG¥Ä",
+      "item.hongkongdrinks.hft_salted_mandarin": "Hung Fook Tong Salted Mandarin Drink",
       "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
       "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "¹D¦a·¥«~¯QÀs¯ù",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "¶§¥úÂfÂc¯ù",
@@ -4443,6 +4537,7 @@
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "¹D¦a¥¨®p´£¤l¥Ä",
       "item.hongkongdrinks.yg_chrysanthemum_tea": "¶§¥úµâªá¯ù",
       "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
+      "item.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink Spawn Egg",
       "item.hongkongdrinks.vita_lemon_tea": "ºû¥LÂfÂc¯ù",
       "item.hongkongdrinks.vita_malt_soya_milk": "ºû¥L³Áºë¨§¥¤",
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
@@ -4462,7 +4557,8 @@
       "item.hongkongdrinks.vita_apple_green_tea": "ºû¥LÄ«ªGºñ¯ù",
       "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
       "entity.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea",
-      "entity.hongkongdrinks.vita_guava_juice_entity": "ºû¥Lµf¥Ûºh¥Ä"
+      "entity.hongkongdrinks.vita_guava_juice_entity": "ºû¥Lµf¥Ûºh¥Ä",
+      "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink"
     },
     "en_us": {
       "item.hongkongdrinks.yg_mango_juice": "Yeung Gwong Mango Juice",
@@ -4521,6 +4617,7 @@
       "entity.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice",
       "item.hongkongdrinks.tao_ti_oolong_tea": "Tao Ti Supreme Oolong Tea",
       "entity.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice",
+      "item.hongkongdrinks.hft_salted_mandarin": "Hung Fook Tong Salted Mandarin Drink",
       "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
       "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "Yeung Gwong Lemon Tea",
@@ -4535,6 +4632,7 @@
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice",
       "item.hongkongdrinks.yg_chrysanthemum_tea": "Yeung Gwong Chrysanthemum Tea",
       "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
+      "item.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink Spawn Egg",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
       "item.hongkongdrinks.vita_malt_soya_milk": "Vita Malted Soya Milk",
       "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
@@ -4554,7 +4652,8 @@
       "item.hongkongdrinks.vita_apple_green_tea": "Vita Apple Green Tea",
       "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
       "entity.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea",
-      "entity.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice"
+      "entity.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice",
+      "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink"
     }
   },
   "workspaceSettings": {

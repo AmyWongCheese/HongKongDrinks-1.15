@@ -17,6 +17,12 @@
         "0": "hftmandarinaloe"
       },
       "name": "hftmandarinaloe"
+    },
+    "hftsaltmandarin": {
+      "map": {
+        "0": "hftsaltmandarin"
+      },
+      "name": "hftsaltmandarin"
     }
   }
 }

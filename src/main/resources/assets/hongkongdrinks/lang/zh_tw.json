@@ -55,6 +55,7 @@
   "entity.hongkongdrinks.yg_orange_juice_entity": "陽光橙汁",
   "item.hongkongdrinks.tao_ti_oolong_tea": "道地極品烏龍茶",
   "entity.hongkongdrinks.vita_mango_juice_entity": "維他芒果汁",
+  "item.hongkongdrinks.hft_salted_mandarin": "Hung Fook Tong Salted Mandarin Drink",
   "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
   "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "道地極品烏龍茶",
   "entity.hongkongdrinks.yg_lemon_tea_entity": "陽光檸檬茶",
@@ -69,6 +70,7 @@
   "entity.hongkongdrinks.tao_ti_grape_juice_entity": "道地巨峰提子汁",
   "item.hongkongdrinks.yg_chrysanthemum_tea": "陽光菊花茶",
   "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
+  "item.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink Spawn Egg",
   "item.hongkongdrinks.vita_lemon_tea": "維他檸檬茶",
   "item.hongkongdrinks.vita_malt_soya_milk": "維他麥精豆奶",
   "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
@@ -88,5 +90,6 @@
   "item.hongkongdrinks.vita_apple_green_tea": "維他蘋果綠茶",
   "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
   "entity.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea",
-  "entity.hongkongdrinks.vita_guava_juice_entity": "維他番石榴汁"
+  "entity.hongkongdrinks.vita_guava_juice_entity": "維他番石榴汁",
+  "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink"
 }

@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "yglemonteaitem",
+    "texture": "vitalemontea_item",
     "customModelName": "vitalemon:default",
     "name": "Vita Lemon Tea",
     "specialInfo": [],

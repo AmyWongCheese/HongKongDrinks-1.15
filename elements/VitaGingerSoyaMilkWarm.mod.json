@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "yglemonteaitem",
+    "texture": "vitagingermilk_item",
     "customModelName": "vitalemon:vitagingermilk",
     "name": "Warm Vita Ginger Soya Milk",
     "specialInfo": [],

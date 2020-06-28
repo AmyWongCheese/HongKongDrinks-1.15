@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "yglemonteaitem",
+    "texture": "vitasugarcane_item",
     "customModelName": "vitalemon:vitasugarcane",
     "name": "Vita Sugarcane Juice",
     "specialInfo": [],

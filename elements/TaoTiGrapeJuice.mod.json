@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "yglemonteaitem",
+    "texture": "taotigrapejuice_item",
     "customModelName": "vitalemon:taotigrapejuice",
     "name": "Tao Ti Kyoho Grape Juice",
     "specialInfo": [],

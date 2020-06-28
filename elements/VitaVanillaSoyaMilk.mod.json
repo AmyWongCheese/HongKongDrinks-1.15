@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 1,
-    "texture": "yglemonteaitem",
+    "texture": "vitavanillamilk_item",
     "customModelName": "vitalemon:vitavanillamilk",
     "name": "Vita Vanilla Soya Milk",
     "specialInfo": [],

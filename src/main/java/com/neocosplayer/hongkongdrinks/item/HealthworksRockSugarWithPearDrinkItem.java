@@ -4,17 +4,16 @@ package com.neocosplayer.hongkongdrinks.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
-import net.minecraft.util.Hand;
-import net.minecraft.util.ActionResult;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.neocosplayer.hongkongdrinks.procedures.VitaLemonTeaFoodEatenProcedure;
-import com.neocosplayer.hongkongdrinks.procedures.HealthworksRockSugarWithPearDrinkOnFoodRightClickedProcedure;
 import com.neocosplayer.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 
@@ -43,32 +42,18 @@ public class HealthworksRockSugarWithPearDrinkItem extends HongkongdrinksModElem
 		}
 
 		@Override
-		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
-			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
-			ItemStack itemstack = ar.getResult();
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				HealthworksRockSugarWithPearDrinkOnFoodRightClickedProcedure.executeProcedure($_dependencies);
-			}
-			return ar;
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
 		}
 
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				VitaLemonTeaFoodEatenProcedure.executeProcedure($_dependencies);
 			}

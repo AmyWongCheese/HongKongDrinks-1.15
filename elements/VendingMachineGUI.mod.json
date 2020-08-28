@@ -1,11 +1,12 @@
 {
-  "_fv": 8,
+  "_fv": 10,
   "_type": "gui",
   "definition": {
     "type": 1,
     "width": 400,
     "height": 470,
     "renderBgLayer": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "label",
@@ -32,6 +33,7 @@
           },
           "id": 0,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #0",
           "x": 552,
           "y": 186
@@ -42,6 +44,7 @@
         "data": {
           "id": 2,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot2"
           },
@@ -69,6 +72,7 @@
         "data": {
           "id": 1,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 264,
           "y": 60
@@ -79,6 +83,7 @@
         "data": {
           "id": 3,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #3",
           "x": 390,
           "y": 60
@@ -89,6 +94,7 @@
         "data": {
           "id": 4,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot4"
           },
@@ -102,6 +108,7 @@
         "data": {
           "id": 5,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #5",
           "x": 516,
           "y": 60
@@ -112,6 +119,7 @@
         "data": {
           "id": 6,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot6"
           },
@@ -125,6 +133,7 @@
         "data": {
           "id": 7,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #7",
           "x": 264,
           "y": 114
@@ -135,6 +144,7 @@
         "data": {
           "id": 8,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot8"
           },
@@ -148,6 +158,7 @@
         "data": {
           "id": 9,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #9",
           "x": 390,
           "y": 114
@@ -158,6 +169,7 @@
         "data": {
           "id": 10,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot10"
           },
@@ -171,6 +183,7 @@
         "data": {
           "id": 11,
           "disableStackInteraction": true,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #11",
           "x": 516,
           "y": 114
@@ -181,6 +194,7 @@
         "data": {
           "id": 12,
           "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot12"
           },

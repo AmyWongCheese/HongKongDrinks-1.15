@@ -149,6 +149,8 @@ public class TaoTiMandarinLemonEntityEntity extends HongkongdrinksModElements.Mo
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;
+			if (source.getImmediateSource() instanceof PlayerEntity)
+				return false;
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;
 			if (source == DamageSource.FALL)

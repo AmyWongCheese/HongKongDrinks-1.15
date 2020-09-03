@@ -149,6 +149,8 @@ public class YGCoconutMilkEntityEntity extends HongkongdrinksModElements.ModElem
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;
+			if (source.getImmediateSource() instanceof PlayerEntity)
+				return false;
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;
 			if (source == DamageSource.FALL)

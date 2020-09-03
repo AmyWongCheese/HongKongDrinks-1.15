@@ -4,16 +4,20 @@ package com.neocosplayer.hongkongdrinks.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.World;
+import net.minecraft.util.Hand;
+import net.minecraft.util.ActionResult;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import java.util.Map;
 import java.util.HashMap;
 
 import com.neocosplayer.hongkongdrinks.procedures.VitaLemonTeaFoodEatenProcedure;
+import com.neocosplayer.hongkongdrinks.procedures.HealthworksRockSugarWithPearDrinkOnFoodRightClickedProcedure;
 import com.neocosplayer.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 
@@ -44,6 +48,25 @@ public class HealthworksRockSugarWithPearDrinkItem extends HongkongdrinksModElem
 		@Override
 		public net.minecraft.util.SoundEvent getEatSound() {
 			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
+		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
+			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
+			ItemStack itemstack = ar.getResult();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				HealthworksRockSugarWithPearDrinkOnFoodRightClickedProcedure.executeProcedure($_dependencies);
+			}
+			return ar;
 		}
 
 		@Override

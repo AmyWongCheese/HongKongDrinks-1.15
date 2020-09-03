@@ -83,7 +83,7 @@
       "type": "procedure",
       "sortid": 50,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_lemon_tea_on_food_right_clicked",
       "metadata": {
@@ -185,7 +185,7 @@
       "type": "procedure",
       "sortid": 55,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_honey_lime_drink_on_food_right_clicked",
       "metadata": {

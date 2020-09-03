@@ -18,6 +18,9 @@
     "isAlwaysEdible": false,
     "animation": "drink",
     "hasGlow": false,
+    "onRightClicked": {
+      "name": "YGMangoJuiceOnFoodRightClicked"
+    },
     "onEaten": {
       "name": "VitaLemonTeaFoodEaten"
     }

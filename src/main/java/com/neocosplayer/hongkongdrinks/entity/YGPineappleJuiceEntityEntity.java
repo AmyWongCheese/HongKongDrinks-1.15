@@ -21,6 +21,7 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.projectile.ArrowEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.ai.goal.LookAtGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
@@ -147,6 +148,8 @@ public class YGPineappleJuiceEntityEntity extends HongkongdrinksModElements.ModE
 				YGPineappleJuiceEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
+				return false;
+			if (source.getImmediateSource() instanceof PlayerEntity)
 				return false;
 			if (source.getImmediateSource() instanceof PotionEntity)
 				return false;

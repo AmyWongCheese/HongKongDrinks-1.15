@@ -35,11 +35,11 @@ public class DrinkPlaced extends HongkongdrinksModElements.ModElement {
 											entity.getEyePosition(1f)
 													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
 											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
-									.getPos().getX()) + a + 1),
+									.getPos().getX()) + a),
 							(y + 1),
 							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
 									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
-									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + b),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) - b),
 							world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
@@ -58,7 +58,7 @@ public class DrinkPlaced extends HongkongdrinksModElements.ModElement {
 							(y + 1),
 							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
 									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
-									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + b),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + b + 1),
 							world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),
@@ -73,11 +73,11 @@ public class DrinkPlaced extends HongkongdrinksModElements.ModElement {
 											entity.getEyePosition(1f)
 													.add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
 											RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity))
-									.getPos().getX()) - a),
+									.getPos().getX()) - a + 1),
 							(y + 1),
 							((entity.world.rayTraceBlocks(new RayTraceContext(entity.getEyePosition(1f),
 									entity.getEyePosition(1f).add(entity.getLook(1f).x * 5, entity.getLook(1f).y * 5, entity.getLook(1f).z * 5),
-									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + b),
+									RayTraceContext.BlockMode.OUTLINE, RayTraceContext.FluidMode.NONE, entity)).getPos().getZ()) + b + 1),
 							world.getRandom().nextFloat() * 360F, 0);
 					if (entityToSpawn instanceof MobEntity)
 						((MobEntity) entityToSpawn).onInitialSpawn(world, world.getDifficultyForLocation(new BlockPos(entityToSpawn)),

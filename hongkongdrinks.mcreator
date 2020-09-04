@@ -278,7 +278,7 @@
       "type": "procedure",
       "sortid": 59,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_meta_green_tea_on_food_right_clicked",
       "metadata": {
@@ -371,7 +371,7 @@
       "type": "procedure",
       "sortid": 63,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_meta_tea_on_food_right_clicked",
       "metadata": {
@@ -464,7 +464,7 @@
       "type": "procedure",
       "sortid": 67,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_honey_green_tea_on_food_right_clicked",
       "metadata": {
@@ -557,7 +557,7 @@
       "type": "procedure",
       "sortid": 71,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_apple_green_tea_on_food_right_clicked",
       "metadata": {
@@ -659,7 +659,7 @@
       "type": "procedure",
       "sortid": 76,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_mandarin_lemon_on_food_right_clicked",
       "metadata": {
@@ -752,7 +752,7 @@
       "type": "procedure",
       "sortid": 80,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "healthworks_hawhorn_apple_drink_on_food_right_clicked",
       "metadata": {
@@ -836,7 +836,7 @@
       "type": "procedure",
       "sortid": 83,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "healthworks_rock_sugar_with_pear_drink_on_food_right_clicked",
       "metadata": {
@@ -929,7 +929,7 @@
       "type": "procedure",
       "sortid": 87,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_mandarin_tea_on_food_right_clicked",
       "metadata": {
@@ -1214,7 +1214,7 @@
       "type": "procedure",
       "sortid": 106,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_pineapple_juice_on_food_right_clicked",
       "metadata": {
@@ -1307,7 +1307,7 @@
       "type": "procedure",
       "sortid": 110,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_grape_juice_on_food_right_clicked",
       "metadata": {
@@ -1400,7 +1400,7 @@
       "type": "procedure",
       "sortid": 114,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_oolong_tea_on_food_right_clicked",
       "metadata": {
@@ -1493,7 +1493,7 @@
       "type": "procedure",
       "sortid": 118,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "tao_ti_white_tea_on_food_right_clicked",
       "metadata": {
@@ -1586,7 +1586,7 @@
       "type": "procedure",
       "sortid": 122,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_blackcurrant_juice_on_food_right_clicked",
       "metadata": {
@@ -1679,7 +1679,7 @@
       "type": "procedure",
       "sortid": 126,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_chocolate_milk_on_food_right_clicked",
       "metadata": {
@@ -1772,7 +1772,7 @@
       "type": "procedure",
       "sortid": 130,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_guava_juice_on_food_right_clicked",
       "metadata": {
@@ -1865,7 +1865,7 @@
       "type": "procedure",
       "sortid": 134,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_imperatae_cane_drink_on_food_right_clicked",
       "metadata": {
@@ -1958,7 +1958,7 @@
       "type": "procedure",
       "sortid": 138,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_malt_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -2051,7 +2051,7 @@
       "type": "procedure",
       "sortid": 142,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_mango_juice_on_food_right_clicked",
       "metadata": {
@@ -2144,7 +2144,7 @@
       "type": "procedure",
       "sortid": 146,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -2237,7 +2237,7 @@
       "type": "procedure",
       "sortid": 150,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_apple_juice_on_food_right_clicked",
       "metadata": {
@@ -2330,7 +2330,7 @@
       "type": "procedure",
       "sortid": 154,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_coconut_milk_on_food_right_clicked",
       "metadata": {
@@ -2423,7 +2423,7 @@
       "type": "procedure",
       "sortid": 158,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_chrysanthemum_tea_on_food_right_clicked",
       "metadata": {
@@ -2516,7 +2516,7 @@
       "type": "procedure",
       "sortid": 162,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_lemon_tea_on_food_right_clicked",
       "metadata": {
@@ -2609,7 +2609,7 @@
       "type": "procedure",
       "sortid": 166,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_mango_juice_on_food_right_clicked",
       "metadata": {
@@ -2702,7 +2702,7 @@
       "type": "procedure",
       "sortid": 170,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_melon_milk_on_food_right_clicked",
       "metadata": {
@@ -2795,7 +2795,7 @@
       "type": "procedure",
       "sortid": 174,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_orange_juice_on_food_right_clicked",
       "metadata": {
@@ -2888,7 +2888,7 @@
       "type": "procedure",
       "sortid": 178,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_peach_tea_on_food_right_clicked",
       "metadata": {
@@ -3258,7 +3258,7 @@
       "type": "procedure",
       "sortid": 194,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hft_passion_fruit_on_food_right_clicked",
       "metadata": {
@@ -3419,7 +3419,7 @@
       "type": "procedure",
       "sortid": 201,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_ginger_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -3512,7 +3512,7 @@
       "type": "procedure",
       "sortid": 205,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hft_ginseng_honey_on_food_right_clicked",
       "metadata": {
@@ -3596,7 +3596,7 @@
       "type": "procedure",
       "sortid": 208,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_choco_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -3689,7 +3689,7 @@
       "type": "procedure",
       "sortid": 212,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_coconut_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -3782,7 +3782,7 @@
       "type": "procedure",
       "sortid": 216,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_vanilla_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -3875,7 +3875,7 @@
       "type": "procedure",
       "sortid": 220,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_mint_choco_soya_milk_on_food_right_clicked",
       "metadata": {
@@ -3968,7 +3968,7 @@
       "type": "procedure",
       "sortid": 224,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_sugarcane_juice_on_food_right_clicked",
       "metadata": {
@@ -4061,7 +4061,7 @@
       "type": "procedure",
       "sortid": 228,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_sugarcane_juice_on_food_right_clicked",
       "metadata": {
@@ -4154,7 +4154,7 @@
       "type": "procedure",
       "sortid": 232,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "yg_honey_lychee_tea_on_food_right_clicked",
       "metadata": {
@@ -4247,7 +4247,7 @@
       "type": "procedure",
       "sortid": 236,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "vita_icy_grapefruit_on_food_right_clicked",
       "metadata": {
@@ -4340,7 +4340,7 @@
       "type": "procedure",
       "sortid": 240,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hft_mandarin_aloe_on_food_right_clicked",
       "metadata": {
@@ -4424,7 +4424,7 @@
       "type": "procedure",
       "sortid": 243,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "hft_salted_mandarin_on_food_right_clicked",
       "metadata": {

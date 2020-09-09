@@ -1,25 +1,11 @@
 package com.neocosplayer.hongkongdrinks.procedures;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.IWorld;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.SoundCategory;
-import net.minecraft.util.ResourceLocation;
-import net.minecraft.inventory.container.Slot;
-import net.minecraft.inventory.container.Container;
-import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.Entity;
-
-import java.util.function.Supplier;
-import java.util.Map;
-
-import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
-
 @HongkongdrinksModElements.ModElement.Tag
 public class DrinkTakenSlot2Procedure extends HongkongdrinksModElements.ModElement {
+
 	public DrinkTakenSlot2Procedure(HongkongdrinksModElements instance) {
 		super(instance, 183);
+
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -43,11 +29,13 @@ public class DrinkTakenSlot2Procedure extends HongkongdrinksModElements.ModEleme
 			System.err.println("Failed to load dependency world for procedure DrinkTakenSlot2!");
 			return;
 		}
+
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+
 		if (!world.getWorld().isRemote) {
 			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
@@ -122,5 +110,7 @@ public class DrinkTakenSlot2Procedure extends HongkongdrinksModElements.ModEleme
 				}
 			}
 		}
+
 	}
+
 }

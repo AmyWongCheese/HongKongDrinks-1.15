@@ -10,6 +10,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.neocosplayer.hongkongdrinks.procedures.VitaGingerSoyaMilkWarmFoodEatenProcedure;
 import com.neocosplayer.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
@@ -39,13 +42,18 @@ public class VitaGingerSoyaMilkWarmItem extends HongkongdrinksModElements.ModEle
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				VitaGingerSoyaMilkWarmFoodEatenProcedure.executeProcedure($_dependencies);
 			}

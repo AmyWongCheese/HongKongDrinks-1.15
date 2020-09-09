@@ -13,6 +13,9 @@ import net.minecraft.item.Food;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
+import java.util.Map;
+import java.util.HashMap;
+
 import com.neocosplayer.hongkongdrinks.procedures.YGMelonMilkOnFoodRightClickedProcedure;
 import com.neocosplayer.hongkongdrinks.procedures.VitaLemonTeaFoodEatenProcedure;
 import com.neocosplayer.hongkongdrinks.itemgroup.HongKongDrinksItemGroup;
@@ -43,14 +46,19 @@ public class YGMelonMilkItem extends HongkongdrinksModElements.ModElement {
 		}
 
 		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
+		}
+
+		@Override
 		public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity entity, Hand hand) {
 			ActionResult<ItemStack> ar = super.onItemRightClick(world, entity, hand);
 			ItemStack itemstack = ar.getResult();
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
@@ -64,11 +72,11 @@ public class YGMelonMilkItem extends HongkongdrinksModElements.ModElement {
 		@Override
 		public ItemStack onItemUseFinish(ItemStack itemStack, World world, LivingEntity entity) {
 			ItemStack retval = super.onItemUseFinish(itemStack, world, entity);
-			int x = (int) entity.getPosX();
-			int y = (int) entity.getPosY();
-			int z = (int) entity.getPosZ();
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
 			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				VitaLemonTeaFoodEatenProcedure.executeProcedure($_dependencies);
 			}

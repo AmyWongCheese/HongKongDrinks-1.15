@@ -61,15 +61,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -163,15 +163,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -256,15 +256,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -349,15 +349,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -442,15 +442,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -535,15 +535,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -637,15 +637,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -730,15 +730,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -814,15 +814,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -907,15 +907,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1090,15 +1090,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1192,15 +1192,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1285,15 +1285,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1378,15 +1378,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1471,15 +1471,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1564,15 +1564,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1657,15 +1657,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1750,15 +1750,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1843,15 +1843,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -1936,15 +1936,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2029,15 +2029,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2122,15 +2122,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2215,15 +2215,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2308,15 +2308,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2401,15 +2401,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2494,15 +2494,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2587,15 +2587,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2680,15 +2680,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2773,15 +2773,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2866,15 +2866,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -2993,15 +2993,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3026,15 +3026,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3059,15 +3059,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3092,15 +3092,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3125,15 +3125,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3158,15 +3158,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3236,15 +3236,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3355,15 +3355,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3397,15 +3397,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3472,15 +3472,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3565,15 +3565,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3658,15 +3658,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3751,15 +3751,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3844,15 +3844,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -3937,15 +3937,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4030,15 +4030,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4123,15 +4123,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4216,15 +4216,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4309,15 +4309,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4384,15 +4384,15 @@
           },
           {
             "name": "x",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "y",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "z",
-            "type": "int"
+            "type": "number"
           },
           {
             "name": "world",
@@ -4475,186 +4475,272 @@
   "sound_elements": [],
   "language_map": {
     "zh_tw": {
-      "item.hongkongdrinks.yg_mango_juice": "¶§¥ú¨~ªG¥Ä",
-      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_drink": "°·±d¤u©Ð¦B¿}³·±ù",
-      "entity.hongkongdrinks.yg_pineapple_juice_entity": "¶§¥ú¯ùÀ\ÆUµÔÅÚ¯S¶¼",
       "item.hongkongdrinks.yg_lemon_tea": "¶§¥úÂfÂc¯ù",
-      "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "ºû¥Lµâªá¯ù",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "ºû¥L¦¶¥j¤O¨§¥¤",
-      "entity.hongkongdrinks.hft_passion_fruit_entity": "ÂEºÖ°ó¦Ê­»ªG»e",
+      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey": "ÂEºÖ°óªáºXçx»e",
-      "item.hongkongdrinks.vita_mint_choco_soya_milk": "ºû¥LÁ¡²ü¦¶¥j¤O¨ý¨§¥¤",
-      "item.hongkongdrinks.tao_ti_honey_green_tea": "¹D¦a¸Á»eºñ¯ù",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "¶§¥ú·¦¤l¨§¥¤",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "¹D¦a·¥«~¥Õ¯ù",
+      "item.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice Spawn Egg",
       "entity.hongkongdrinks.hft_mandarin_aloe_entity": "ÂEºÖ°ó¬a®ÜÄªîP",
       "item.hongkongdrinks.yg_peach_tea": "¶§¥ú»e®ç¯ù",
       "block.hongkongdrinks.vending_machine": "¦Û°Ê°â½æ¾÷",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "ºû¥L³Áºë¨§¥¤",
-      "item.hongkongdrinks.tao_ti_meta_tea": "¹D¦a·¥«~¸Ñ¯ù",
-      "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "°·±d¤u©Ð¤sÝÓÄ«ªG",
+      "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
+      "item.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink Spawn Egg",
       "item.hongkongdrinks.vita_coconut_soya_milk": "ºû¥L·¦¤l¨§¥¤",
+      "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "°·±d¤u©Ð¤sÝÓÄ«ªG",
+      "item.hongkongdrinks.vita_ginger_soya_milk_warm": "ºû¥LÁ¤¨ý¨§¥¤(¼ö)",
+      "item.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice Spawn Egg",
+      "item.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink Spawn Egg",
+      "item.hongkongdrinks.vita_coconut_soya_milk_entity": "Vita Coconut Soya Milk Spawn Egg",
+      "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "¹D¦a¸Á»eºñ¯ù",
+      "item.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea Spawn Egg",
+      "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
+      "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "ºû¥L¶³©O®³¨§¥¤",
+      "item.hongkongdrinks.yg_sugarcane_juice": "¶§¥ú½©¥Ä¶¼«~ ",
+      "item.hongkongdrinks.tao_ti_meta_green_tea": "¹D¦a·¥«~¸Ñºñ¯ù",
+      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
+      "item.hongkongdrinks.yg_honey_lychee_tea": "¶§¥ú¸Á»e¯ïªK¯ù",
+      "item.hongkongdrinks.yg_sugarcane_juice_entity": "Yeung Gwong Sugarcane Juice Spawn Egg",
+      "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "ºû¥L¶Â¥[¨Ú¤l¥Ä",
+      "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_lemon_tea_entity": "ºû¥LÂfÂc¯ù",
+      "item.hongkongdrinks.yg_orange_juice": "¶§¥ú¾í¥Ä",
+      "item.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice Spawn Egg",
+      "entity.hongkongdrinks.yg_honey_lychee_tea_entity": "¶§¥ú¸Á»e¯ïªK¯ù",
+      "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "¹D¦a¬a®ÜÂfÂc",
+      "item.hongkongdrinks.tao_ti_white_tea": "¹D¦a·¥«~¥Õ¯ù",
+      "entity.hongkongdrinks.yg_orange_juice_entity": "¶§¥ú¾í¥Ä",
+      "item.hongkongdrinks.yg_mandarin_tea_entity": "Yeung Gwong Mandarin Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_mango_juice_entity": "ºû¥L¨~ªG¥Ä",
+      "item.hongkongdrinks.hft_salted_mandarin": "ÂEºÖ°ó«w¬a®Ü",
+      "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
+      "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "¹D¦a·¥«~¯QÀs¯ù",
+      "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "°·±d¤u©Ð¦B¿}³·±ù",
+      "entity.hongkongdrinks.yg_melon_milk_entity": "¶§¥ú»e¥Ê¨§¥¤",
+      "item.hongkongdrinks.yg_pineapple_juice_entity": "Yeung Gwong Pineapple Juice Spawn Egg",
+      "item.hongkongdrinks.yg_melon_milk": "¶§¥ú»e¥Ê¨§¥¤",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon": "¹D¦a¬a®ÜÂfÂc",
+      "item.hongkongdrinks.yg_chrysanthemum_tea": "¶§¥úµâªá¯ù",
+      "item.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink Spawn Egg",
+      "item.hongkongdrinks.vita_malt_soya_milk": "ºû¥L³Áºë¨§¥¤",
+      "entity.hongkongdrinks.hft_ginseng_honey_entity": "ÂEºÖ°óªáºXçx»e",
+      "item.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk Spawn Egg",
+      "item.hongkongdrinks.hft_mandarin_aloe": "ÂEºÖ°ó¬a®ÜÄªîP",
+      "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "ºû¥LÁ¤¨ý¨§¥¤",
+      "entity.hongkongdrinks.yg_apple_juice_entity": "¶§¥úÄ«ªG¥Ä",
+      "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "°·±d¤u©Ð¤sÝÓÄ«ªG",
+      "item.hongkongdrinks.tao_ti_grape_juice": "¹D¦a¥¨®p´£¤l¥Ä",
+      "item.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk Spawn Egg",
+      "item.hongkongdrinks.vita_vanilla_soya_milk": "ºû¥L¶³©O®³¨§¥¤",
+      "item.hongkongdrinks.vita_imperatae_cane_drink": "²M¤ß´Ì¦Ë½©­T®Ú",
+      "item.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea Spawn Egg",
+      "item.hongkongdrinks.vita_sugarcane_juice": "ºû¥L¥Ì½©¥Ä",
+      "item.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk Spawn Egg",
+      "item.hongkongdrinks.yg_mango_juice": "¶§¥ú¨~ªG¥Ä",
+      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_drink": "°·±d¤u©Ð¦B¿}³·±ù",
+      "entity.hongkongdrinks.yg_pineapple_juice_entity": "¶§¥ú¯ùÀ\ÆUµÔÅÚ¯S¶¼",
+      "item.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "ºû¥Lµâªá¯ù",
+      "item.hongkongdrinks.yg_peach_tea_entity": "Yeung Gwong Peach Tea Spawn Egg",
+      "entity.hongkongdrinks.hft_passion_fruit_entity": "ÂEºÖ°ó¦Ê­»ªG»e",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon Spawn Egg",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk": "ºû¥LÁ¡²ü¦¶¥j¤O¨ý¨§¥¤",
+      "item.hongkongdrinks.tao_ti_honey_green_tea": "¹D¦a¸Á»eºñ¯ù",
+      "item.hongkongdrinks.yg_apple_juice_entity": "Yeung Gwong Apple Juice Spawn Egg",
+      "item.hongkongdrinks.tao_ti_meta_tea": "¹D¦a·¥«~¸Ñ¯ù",
       "item.hongkongdrinks.vita_choco_soya_milk": "ºû¥L¦¶¥j¤O¨§¥¤",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk_entity": "Vita Mint Chocolate Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_mandarin_tea_entity": "¶§¥ú¬a­»¯ù",
       "entity.hongkongdrinks.tao_ti_meta_tea_entity": "¹D¦a·¥«~¸Ñ¯ù",
-      "item.hongkongdrinks.vita_ginger_soya_milk_warm": "ºû¥LÁ¤¨ý¨§¥¤(¼ö)",
       "entity.hongkongdrinks.vita_honey_lime_entity": "²M¤ß´Ì¥V»e«CÂf",
+      "item.hongkongdrinks.vita_choco_milk_entity": "Vita Chocolate Milk Spawn Egg",
+      "item.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea Spawn Egg",
       "item.hongkongdrinks.yg_pineapple_juice": "¶§¥ú¯ùÀ\ÆUµÔÅÚ¯S¶¼",
       "item.hongkongdrinks.vita_blackcurrant_juice": "ºû¥L¶Â¥[¨Ú¤l¥Ä",
+      "item.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_sugarcane_juice_entity": "¶§¥ú½©¥Ä¶¼«~ ",
-      "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "¹D¦a¸Á»eºñ¯ù",
+      "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
+      "item.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice Spawn Egg",
       "item.hongkongdrinks.vita_honey_lime_drink": "²M¤ß´Ì¥V»e«CÂf",
       "entity.hongkongdrinks.yg_mango_juice_entity": "¶§¥ú¨~ªG¥Ä",
       "item.hongkongdrinks.vita_chrysanthemum_tea": "ºû¥Lµâªá¯ù",
+      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "Healthworks Rock Sugar With Pear Drink Spawn Egg",
       "item.hongkongdrinks.vita_chocolate_milk": "ºû¥L¦¶¥j¤O¥¤",
+      "item.hongkongdrinks.yg_lemon_tea_entity": "Yeung Gwong Lemon Tea Spawn Egg",
       "entity.hongkongdrinks.yg_peach_tea_entity": "¶§¥ú»e®ç¯ù",
-      "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "ºû¥L¶³©O®³¨§¥¤",
-      "item.hongkongdrinks.tao_ti_meta_green_tea": "¹D¦a·¥«~¸Ñºñ¯ù",
-      "item.hongkongdrinks.yg_sugarcane_juice": "¶§¥ú½©¥Ä¶¼«~ ",
       "entity.hongkongdrinks.vita_coconut_soya_milk_entity": "ºû¥L·¦¤l¨§¥¤",
       "item.hongkongdrinks.vita_guava_juice": "ºû¥Lµf¥Ûºh¥Ä",
-      "item.hongkongdrinks.yg_honey_lychee_tea": "¶§¥ú¸Á»e¯ïªK¯ù",
       "item.hongkongdrinks.yg_apple_juice": "¶§¥úÄ«ªG¥Ä",
-      "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "ºû¥L¶Â¥[¨Ú¤l¥Ä",
-      "entity.hongkongdrinks.vita_lemon_tea_entity": "ºû¥LÂfÂc¯ù",
-      "item.hongkongdrinks.yg_orange_juice": "¶§¥ú¾í¥Ä",
-      "entity.hongkongdrinks.yg_honey_lychee_tea_entity": "¶§¥ú¸Á»e¯ïªK¯ù",
+      "item.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice Spawn Egg",
+      "item.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice Spawn Egg",
       "entity.hongkongdrinks.vita_choco_milk_entity": "ºû¥L¦¶¥j¤O¥¤",
-      "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "¹D¦a¬a®ÜÂfÂc",
       "item.hongkongdrinks.hft_passion_fruit": "ÂEºÖ°ó¦Ê­»ªG»e",
+      "item.hongkongdrinks.yg_melon_milk_entity": "Yeung Gwong Melon Soya Milk Spawn Egg",
       "entity.hongkongdrinks.vita_apple_green_tea_entity": "ºû¥LÄ«ªGºñ¯ù",
-      "item.hongkongdrinks.tao_ti_white_tea": "¹D¦a·¥«~¥Õ¯ù",
       "item.hongkongdrinks.yg_coconut_milk": "¶§¥ú·¦¤l¨§¥¤",
       "item.hongkongdrinks.vita_icy_grapefruit": "ºû¥LªGµM¨t¦B¾_¬õ¦è¬c",
-      "entity.hongkongdrinks.yg_orange_juice_entity": "¶§¥ú¾í¥Ä",
       "item.hongkongdrinks.tao_ti_oolong_tea": "¹D¦a·¥«~¯QÀs¯ù",
-      "entity.hongkongdrinks.vita_mango_juice_entity": "ºû¥L¨~ªG¥Ä",
-      "item.hongkongdrinks.hft_salted_mandarin": "ÂEºÖ°ó«w¬a®Ü",
-      "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "¹D¦a·¥«~¯QÀs¯ù",
+      "item.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink Spawn Egg",
+      "item.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk Spawn Egg",
+      "item.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea Spawn Egg",
+      "item.hongkongdrinks.vita_soya_milk_entity": "Vita Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "¶§¥úÂfÂc¯ù",
-      "entity.hongkongdrinks.yg_melon_milk_entity": "¶§¥ú»e¥Ê¨§¥¤",
-      "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "°·±d¤u©Ð¦B¿}³·±ù",
       "entity.hongkongdrinks.vita_soya_milk_entity": "ºû¥L¥¤",
-      "item.hongkongdrinks.yg_melon_milk": "¶§¥ú»e¥Ê¨§¥¤",
       "entity.hongkongdrinks.yg_chrysanthemum_tea_entity": "¶§¥úµâªá¯ù",
-      "item.hongkongdrinks.tao_ti_mandarin_lemon": "¹D¦a¬a®ÜÂfÂc",
       "item.hongkongdrinks.vita_mango_juice": "ºû¥L¨~ªG¥Ä",
       "itemGroup.tabhong_kong_drinks": "­»´ä¶¼«~",
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "¹D¦a¥¨®p´£¤l¥Ä",
-      "item.hongkongdrinks.yg_chrysanthemum_tea": "¶§¥úµâªá¯ù",
       "entity.hongkongdrinks.vita_sugarcane_juice_entity": "ºû¥L¥Ì½©¥Ä",
       "item.hongkongdrinks.vita_lemon_tea": "ºû¥LÂfÂc¯ù",
-      "item.hongkongdrinks.vita_malt_soya_milk": "ºû¥L³Áºë¨§¥¤",
-      "entity.hongkongdrinks.hft_ginseng_honey_entity": "ÂEºÖ°óªáºXçx»e",
-      "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "ºû¥LÁ¤¨ý¨§¥¤",
-      "item.hongkongdrinks.hft_mandarin_aloe": "ÂEºÖ°ó¬a®ÜÄªîP",
+      "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
       "item.hongkongdrinks.vita_ginger_soya_milk": "ºû¥LÁ¤¨ý¨§¥¤",
-      "entity.hongkongdrinks.yg_apple_juice_entity": "¶§¥úÄ«ªG¥Ä",
       "entity.hongkongdrinks.tao_ti_meta_green_tea_entity": "¹D¦a·¥«~¸Ñºñ¯ù",
-      "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "°·±d¤u©Ð¤sÝÓÄ«ªG",
-      "item.hongkongdrinks.tao_ti_grape_juice": "¹D¦a¥¨®p´£¤l¥Ä",
       "entity.hongkongdrinks.vita_imperatae_cane_drink_entity": "²M¤ß´Ì¦Ë½©­T®Ú",
-      "item.hongkongdrinks.vita_vanilla_soya_milk": "ºû¥L¶³©O®³¨§¥¤",
-      "item.hongkongdrinks.vita_imperatae_cane_drink": "²M¤ß´Ì¦Ë½©­T®Ú",
       "item.hongkongdrinks.vita_soya_milk": "ºû¥L¥¤",
       "entity.hongkongdrinks.vita_mint_choco_soya_milk_entity": "ºû¥LÁ¡²ü¦¶¥j¤O¨ý¨§¥¤",
       "item.hongkongdrinks.yg_mandarin_tea": "¶§¥ú¬a­»¯ù",
-      "item.hongkongdrinks.vita_sugarcane_juice": "ºû¥L¥Ì½©¥Ä",
       "item.hongkongdrinks.vita_apple_green_tea": "ºû¥LÄ«ªGºñ¯ù",
       "entity.hongkongdrinks.vita_icy_grapefruit_entity": "ºû¥LªGµM¨t¦B¾_¬õ¦è¬c",
       "entity.hongkongdrinks.vita_guava_juice_entity": "ºû¥Lµf¥Ûºh¥Ä",
-      "entity.hongkongdrinks.hft_salted_mandarin_entity": "ÂEºÖ°ó«w¬a®Ü"
+      "item.hongkongdrinks.yg_chrysanthemum_tea_entity": "Yeung Gwong Chrysanthemum Tea Spawn Egg",
+      "entity.hongkongdrinks.hft_salted_mandarin_entity": "ÂEºÖ°ó«w¬a®Ü",
+      "item.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink Spawn Egg"
     },
     "en_us": {
-      "item.hongkongdrinks.yg_mango_juice": "Yeung Gwong Mango Juice",
-      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_drink": "Healthworks Rock Sugar With Pear Drink",
-      "entity.hongkongdrinks.yg_pineapple_juice_entity": "Yeung Gwong Pineapple Juice",
       "item.hongkongdrinks.yg_lemon_tea": "Yeung Gwong Lemon Tea",
-      "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
-      "entity.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink",
-      "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
-      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
+      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk",
+      "item.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice Spawn Egg",
       "entity.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink",
       "item.hongkongdrinks.yg_peach_tea": "Yeung Gwong Peach Tea",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk",
       "block.hongkongdrinks.vending_machine": "Vending Machine",
-      "item.hongkongdrinks.tao_ti_meta_tea": "Tao Ti Supreme Meta Tea",
-      "item.hongkongdrinks.vita_coconut_soya_milk": "Vita Coconut Soya Milk",
+      "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
+      "item.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink Spawn Egg",
       "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "Healthworks Hawhorn Apple Drink",
+      "item.hongkongdrinks.vita_coconut_soya_milk": "Vita Coconut Soya Milk",
+      "item.hongkongdrinks.vita_ginger_soya_milk_warm": "Warm Vita Ginger Soya Milk",
+      "item.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice Spawn Egg",
+      "item.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink Spawn Egg",
+      "item.hongkongdrinks.vita_coconut_soya_milk_entity": "Vita Coconut Soya Milk Spawn Egg",
+      "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea",
+      "item.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea Spawn Egg",
+      "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
+      "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk",
+      "item.hongkongdrinks.yg_sugarcane_juice": "Yeung Gwong Sugarcane Juice",
+      "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
+      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
+      "item.hongkongdrinks.yg_honey_lychee_tea": "Yeung Gwong Honey Lychee Tea",
+      "item.hongkongdrinks.yg_sugarcane_juice_entity": "Yeung Gwong Sugarcane Juice Spawn Egg",
+      "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice",
+      "item.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",
+      "item.hongkongdrinks.yg_orange_juice": "Yeung Gwong Orange Juice",
+      "item.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice Spawn Egg",
+      "entity.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea",
+      "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon",
+      "item.hongkongdrinks.tao_ti_white_tea": "Tao Ti Supreme White Tea",
+      "entity.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice",
+      "item.hongkongdrinks.yg_mandarin_tea_entity": "Yeung Gwong Mandarin Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice",
+      "item.hongkongdrinks.hft_salted_mandarin": "Hung Fook Tong Salted Mandarin Drink",
+      "item.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
+      "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea",
+      "entity.hongkongdrinks.yg_melon_milk_entity": "Yeung Gwong Melon Soya Milk",
+      "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "Healthworks Rock Sugar With Pear Drink",
+      "item.hongkongdrinks.yg_pineapple_juice_entity": "Yeung Gwong Pineapple Juice Spawn Egg",
+      "item.hongkongdrinks.yg_melon_milk": "Yeung Gwong Melon Soya Milk",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon": "Tao Ti Mandarin Lemon",
+      "item.hongkongdrinks.yg_chrysanthemum_tea": "Yeung Gwong Chrysanthemum Tea",
+      "item.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink Spawn Egg",
+      "item.hongkongdrinks.vita_malt_soya_milk": "Vita Malted Soya Milk",
+      "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
+      "item.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk Spawn Egg",
+      "item.hongkongdrinks.hft_mandarin_aloe": "Hung Fook Tong Mandarin Juice With Aloe Drink",
+      "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk",
+      "entity.hongkongdrinks.yg_apple_juice_entity": "Yeung Gwong Apple Juice",
+      "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink",
+      "item.hongkongdrinks.tao_ti_grape_juice": "Tao Ti Kyoho Grape Juice",
+      "item.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk Spawn Egg",
+      "item.hongkongdrinks.vita_vanilla_soya_milk": "Vita Vanilla Soya Milk",
+      "item.hongkongdrinks.vita_imperatae_cane_drink": "Vita Imperatae Cane Drink",
+      "item.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea Spawn Egg",
+      "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
+      "item.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk Spawn Egg",
+      "item.hongkongdrinks.yg_mango_juice": "Yeung Gwong Mango Juice",
+      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_drink": "Healthworks Rock Sugar With Pear Drink",
+      "entity.hongkongdrinks.yg_pineapple_juice_entity": "Yeung Gwong Pineapple Juice",
+      "item.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea Spawn Egg",
+      "entity.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea",
+      "item.hongkongdrinks.yg_peach_tea_entity": "Yeung Gwong Peach Tea Spawn Egg",
+      "entity.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink",
+      "item.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon Spawn Egg",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk": "Vita Mint Chocolate Soya Milk",
+      "item.hongkongdrinks.tao_ti_honey_green_tea": "Tao Ti Honey Green Tea",
+      "item.hongkongdrinks.yg_apple_juice_entity": "Yeung Gwong Apple Juice Spawn Egg",
+      "item.hongkongdrinks.tao_ti_meta_tea": "Tao Ti Supreme Meta Tea",
       "item.hongkongdrinks.vita_choco_soya_milk": "Vita Chocolate Soya Milk",
+      "item.hongkongdrinks.vita_mint_choco_soya_milk_entity": "Vita Mint Chocolate Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_mandarin_tea_entity": "Yeung Gwong Mandarin Tea",
       "entity.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea",
-      "item.hongkongdrinks.vita_ginger_soya_milk_warm": "Warm Vita Ginger Soya Milk",
       "entity.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink",
+      "item.hongkongdrinks.vita_choco_milk_entity": "Vita Chocolate Milk Spawn Egg",
+      "item.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea Spawn Egg",
       "item.hongkongdrinks.yg_pineapple_juice": "Yeung Gwong Pineapple Juice",
       "item.hongkongdrinks.vita_blackcurrant_juice": "Vita Blackcurrant Juice",
+      "item.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_sugarcane_juice_entity": "Yeung Gwong Sugarcane Juice",
-      "entity.hongkongdrinks.tao_ti_honey_green_tea_entity": "Tao Ti Honey Green Tea",
+      "item.hongkongdrinks.vita_honey_lime_entity": "Vita Honey Lime Drink Spawn Egg",
+      "item.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice Spawn Egg",
       "item.hongkongdrinks.vita_honey_lime_drink": "Vita Honey Lime Drink",
       "entity.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice",
       "item.hongkongdrinks.vita_chrysanthemum_tea": "Vita Chrysanthemum Tea",
+      "item.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "Healthworks Rock Sugar With Pear Drink Spawn Egg",
       "item.hongkongdrinks.vita_chocolate_milk": "Vita Chocolate Milk",
+      "item.hongkongdrinks.yg_lemon_tea_entity": "Yeung Gwong Lemon Tea Spawn Egg",
       "entity.hongkongdrinks.yg_peach_tea_entity": "Yeung Gwong Peach Tea",
-      "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk",
-      "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
-      "item.hongkongdrinks.yg_sugarcane_juice": "Yeung Gwong Sugarcane Juice",
       "entity.hongkongdrinks.vita_coconut_soya_milk_entity": "Vita Coconut Soya Milk",
       "item.hongkongdrinks.vita_guava_juice": "Vita Guava Juice",
-      "item.hongkongdrinks.yg_honey_lychee_tea": "Yeung Gwong Honey Lychee Tea",
       "item.hongkongdrinks.yg_apple_juice": "Yeung Gwong Apple Juice",
-      "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice",
-      "entity.hongkongdrinks.vita_lemon_tea_entity": "Vita Lemon Tea",
-      "item.hongkongdrinks.yg_orange_juice": "Yeung Gwong Orange Juice",
-      "entity.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea",
+      "item.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice Spawn Egg",
+      "item.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice Spawn Egg",
       "entity.hongkongdrinks.vita_choco_milk_entity": "Vita Chocolate Milk",
-      "entity.hongkongdrinks.tao_ti_mandarin_lemon_entity": "Tao Ti Mandarin Lemon",
       "item.hongkongdrinks.hft_passion_fruit": "Hung Fook Tong Passion Fruit with Honey Drink",
+      "item.hongkongdrinks.yg_melon_milk_entity": "Yeung Gwong Melon Soya Milk Spawn Egg",
       "entity.hongkongdrinks.vita_apple_green_tea_entity": "Vita Apple Green Tea",
-      "item.hongkongdrinks.tao_ti_white_tea": "Tao Ti Supreme White Tea",
       "item.hongkongdrinks.yg_coconut_milk": "Yeung Gwong Coconut Soya Milk",
       "item.hongkongdrinks.vita_icy_grapefruit": "Vita Icy Pink Grapefruit Tea",
-      "entity.hongkongdrinks.yg_orange_juice_entity": "Yeung Gwong Orange Juice",
       "item.hongkongdrinks.tao_ti_oolong_tea": "Tao Ti Supreme Oolong Tea",
-      "entity.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice",
-      "item.hongkongdrinks.hft_salted_mandarin": "Hung Fook Tong Salted Mandarin Drink",
-      "entity.hongkongdrinks.tao_ti_oolong_tea_entity": "Tao Ti Supreme Oolong Tea",
+      "item.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink Spawn Egg",
+      "item.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk Spawn Egg",
+      "item.hongkongdrinks.tao_ti_meta_tea_entity": "Tao Ti Supreme Meta Tea Spawn Egg",
+      "item.hongkongdrinks.vita_soya_milk_entity": "Vita Soya Milk Spawn Egg",
       "entity.hongkongdrinks.yg_lemon_tea_entity": "Yeung Gwong Lemon Tea",
-      "entity.hongkongdrinks.healthworks_rock_sugar_with_pear_entity": "Healthworks Rock Sugar With Pear Drink",
-      "entity.hongkongdrinks.yg_melon_milk_entity": "Yeung Gwong Melon Soya Milk",
       "entity.hongkongdrinks.vita_soya_milk_entity": "Vita Soya Milk",
-      "item.hongkongdrinks.yg_melon_milk": "Yeung Gwong Melon Soya Milk",
       "entity.hongkongdrinks.yg_chrysanthemum_tea_entity": "Yeung Gwong Chrysanthemum Tea",
-      "item.hongkongdrinks.tao_ti_mandarin_lemon": "Tao Ti Mandarin Lemon",
       "item.hongkongdrinks.vita_mango_juice": "Vita Mango Juice",
       "itemGroup.tabhong_kong_drinks": "Hong Kong Drinks",
       "entity.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice",
-      "item.hongkongdrinks.yg_chrysanthemum_tea": "Yeung Gwong Chrysanthemum Tea",
       "entity.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice",
       "item.hongkongdrinks.vita_lemon_tea": "Vita Lemon Tea",
-      "item.hongkongdrinks.vita_malt_soya_milk": "Vita Malted Soya Milk",
-      "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
-      "entity.hongkongdrinks.vita_ginger_soya_milk_entity": "Vita Ginger Soya Milk",
-      "item.hongkongdrinks.hft_mandarin_aloe": "Hung Fook Tong Mandarin Juice With Aloe Drink",
+      "item.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea Spawn Egg",
       "item.hongkongdrinks.vita_ginger_soya_milk": "Vita Ginger Soya Milk",
-      "entity.hongkongdrinks.yg_apple_juice_entity": "Yeung Gwong Apple Juice",
       "entity.hongkongdrinks.tao_ti_meta_green_tea_entity": "Tao Ti Supreme Meta Green Tea",
-      "entity.hongkongdrinks.healthworks_hawhorn_apple_entity": "Healthworks Hawhorn Apple Drink",
-      "item.hongkongdrinks.tao_ti_grape_juice": "Tao Ti Kyoho Grape Juice",
       "entity.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink",
-      "item.hongkongdrinks.vita_vanilla_soya_milk": "Vita Vanilla Soya Milk",
-      "item.hongkongdrinks.vita_imperatae_cane_drink": "Vita Imperatae Cane Drink",
       "item.hongkongdrinks.vita_soya_milk": "Vita Soya Milk",
       "entity.hongkongdrinks.vita_mint_choco_soya_milk_entity": "Vita Mint Chocolate Soya Milk",
       "item.hongkongdrinks.yg_mandarin_tea": "Yeung Gwong Mandarin Tea",
-      "item.hongkongdrinks.vita_sugarcane_juice": "Vita Sugarcane Juice",
       "item.hongkongdrinks.vita_apple_green_tea": "Vita Apple Green Tea",
       "entity.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea",
       "entity.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice",
-      "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink"
+      "item.hongkongdrinks.yg_chrysanthemum_tea_entity": "Yeung Gwong Chrysanthemum Tea Spawn Egg",
+      "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink",
+      "item.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink Spawn Egg"
     }
   },
   "workspaceSettings": {
@@ -4674,5 +4760,5 @@
     "modElementsPackage": "com.neocosplayer.hongkongdrinks",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000322116
+  "mcreatorVersion": 202000432115
 }

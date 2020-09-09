@@ -2,13 +2,13 @@ package com.neocosplayer.hongkongdrinks.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.World;
+import net.minecraft.world.IWorld;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.inventory.container.Slot;
 import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import java.util.function.Supplier;
@@ -22,7 +22,7 @@ public class DrinkTakenSlot10Procedure extends HongkongdrinksModElements.ModElem
 		super(instance, 187);
 	}
 
-	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			System.err.println("Failed to load dependency entity for procedure DrinkTakenSlot10!");
 			return;
@@ -44,13 +44,19 @@ public class DrinkTakenSlot10Procedure extends HongkongdrinksModElements.ModElem
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		int x = (int) dependencies.get("x");
-		int y = (int) dependencies.get("y");
-		int z = (int) dependencies.get("z");
-		World world = (World) dependencies.get("world");
-		world.playSound((PlayerEntity) null, x, y, z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
-				SoundCategory.NEUTRAL, (float) 1, (float) 1);
+		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
+		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
+		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		IWorld world = (IWorld) dependencies.get("world");
+		if (!world.getWorld().isRemote) {
+			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
+					SoundCategory.NEUTRAL, (float) 1, (float) 1);
+		} else {
+			world.getWorld().playSound(x, y, z,
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
+					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+		}
 		{
 			Entity _ent = entity;
 			if (_ent instanceof ServerPlayerEntity) {

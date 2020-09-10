@@ -6,7 +6,7 @@
       "type": "food",
       "sortid": 1,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_lemon_tea"
     },
@@ -94,15 +94,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -134,7 +134,7 @@
       "type": "food",
       "sortid": 19,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_honey_lime_drink"
     },
@@ -196,15 +196,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -227,7 +227,7 @@
       "type": "food",
       "sortid": 37,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_meta_green_tea"
     },
@@ -289,15 +289,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -320,7 +320,7 @@
       "type": "food",
       "sortid": 36,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_meta_tea"
     },
@@ -382,15 +382,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -413,7 +413,7 @@
       "type": "food",
       "sortid": 32,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_honey_green_tea"
     },
@@ -475,15 +475,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -506,7 +506,7 @@
       "type": "food",
       "sortid": 16,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_apple_green_tea"
     },
@@ -568,15 +568,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -599,7 +599,7 @@
       "type": "food",
       "sortid": 33,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_mandarin_lemon"
     },
@@ -670,15 +670,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -692,7 +692,7 @@
       "type": "food",
       "sortid": 39,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "healthworks_hawhorn_apple_drink"
     },
@@ -763,15 +763,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -785,7 +785,7 @@
       "type": "food",
       "sortid": 40,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "healthworks_rock_sugar_with_pear_drink"
     },
@@ -847,15 +847,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -878,7 +878,7 @@
       "type": "food",
       "sortid": 23,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_mandarin_tea"
     },
@@ -940,15 +940,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1061,7 +1061,7 @@
       "type": "food",
       "sortid": 2,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_chrysanthemum_tea"
     },
@@ -1123,15 +1123,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1163,7 +1163,7 @@
       "type": "food",
       "sortid": 31,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_pineapple_juice"
     },
@@ -1225,15 +1225,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1256,7 +1256,7 @@
       "type": "food",
       "sortid": 34,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_grape_juice"
     },
@@ -1318,15 +1318,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1349,7 +1349,7 @@
       "type": "food",
       "sortid": 35,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_oolong_tea"
     },
@@ -1411,15 +1411,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1442,7 +1442,7 @@
       "type": "food",
       "sortid": 38,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "tao_ti_white_tea"
     },
@@ -1504,15 +1504,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1535,7 +1535,7 @@
       "type": "food",
       "sortid": 13,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_blackcurrant_juice"
     },
@@ -1597,15 +1597,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1628,7 +1628,7 @@
       "type": "food",
       "sortid": 11,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_chocolate_milk"
     },
@@ -1690,15 +1690,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1721,7 +1721,7 @@
       "type": "food",
       "sortid": 14,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_guava_juice"
     },
@@ -1783,15 +1783,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1814,7 +1814,7 @@
       "type": "food",
       "sortid": 18,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_imperatae_cane_drink"
     },
@@ -1876,15 +1876,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -1907,7 +1907,7 @@
       "type": "food",
       "sortid": 4,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_malt_soya_milk"
     },
@@ -1969,15 +1969,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2000,7 +2000,7 @@
       "type": "food",
       "sortid": 12,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_mango_juice"
     },
@@ -2062,15 +2062,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2093,7 +2093,7 @@
       "type": "food",
       "sortid": 3,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_soya_milk"
     },
@@ -2155,15 +2155,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2186,7 +2186,7 @@
       "type": "food",
       "sortid": 26,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_apple_juice"
     },
@@ -2248,15 +2248,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2279,7 +2279,7 @@
       "type": "food",
       "sortid": 28,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_coconut_milk"
     },
@@ -2341,15 +2341,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2372,7 +2372,7 @@
       "type": "food",
       "sortid": 21,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_chrysanthemum_tea"
     },
@@ -2434,15 +2434,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2465,7 +2465,7 @@
       "type": "food",
       "sortid": 20,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_lemon_tea"
     },
@@ -2527,15 +2527,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2558,7 +2558,7 @@
       "type": "food",
       "sortid": 25,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_mango_juice"
     },
@@ -2620,15 +2620,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2651,7 +2651,7 @@
       "type": "food",
       "sortid": 29,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_melon_milk"
     },
@@ -2713,15 +2713,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2744,7 +2744,7 @@
       "type": "food",
       "sortid": 27,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_orange_juice"
     },
@@ -2806,15 +2806,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -2837,7 +2837,7 @@
       "type": "food",
       "sortid": 22,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_peach_tea"
     },
@@ -2899,15 +2899,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3207,7 +3207,7 @@
       "type": "food",
       "sortid": 44,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "hft_passion_fruit"
     },
@@ -3269,15 +3269,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3300,7 +3300,7 @@
       "type": "food",
       "sortid": 9,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_ginger_soya_milk"
     },
@@ -3326,7 +3326,7 @@
       "type": "food",
       "sortid": 10,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_ginger_soya_milk_warm"
     },
@@ -3430,15 +3430,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3452,7 +3452,7 @@
       "type": "food",
       "sortid": 42,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "hft_ginseng_honey"
     },
@@ -3523,15 +3523,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3545,7 +3545,7 @@
       "type": "food",
       "sortid": 5,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_choco_soya_milk"
     },
@@ -3607,15 +3607,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3638,7 +3638,7 @@
       "type": "food",
       "sortid": 6,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_coconut_soya_milk"
     },
@@ -3700,15 +3700,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3731,7 +3731,7 @@
       "type": "food",
       "sortid": 7,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_vanilla_soya_milk"
     },
@@ -3793,15 +3793,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3824,7 +3824,7 @@
       "type": "food",
       "sortid": 8,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_mint_choco_soya_milk"
     },
@@ -3886,15 +3886,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -3917,7 +3917,7 @@
       "type": "food",
       "sortid": 15,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_sugarcane_juice"
     },
@@ -3979,15 +3979,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4010,7 +4010,7 @@
       "type": "food",
       "sortid": 24,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_sugarcane_juice"
     },
@@ -4072,15 +4072,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4103,7 +4103,7 @@
       "type": "food",
       "sortid": 30,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "yg_honey_lychee_tea"
     },
@@ -4165,15 +4165,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4196,7 +4196,7 @@
       "type": "food",
       "sortid": 17,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "vita_icy_grapefruit"
     },
@@ -4258,15 +4258,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4289,7 +4289,7 @@
       "type": "food",
       "sortid": 43,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "hft_mandarin_aloe"
     },
@@ -4351,15 +4351,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4415,7 +4415,7 @@
       "type": "food",
       "sortid": 41,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "ids": {},
       "registry_name": "hft_salted_mandarin"
     },
@@ -4435,15 +4435,15 @@
           },
           {
             "name": "x",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "y",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "z",
-            "type": "number"
+            "type": "int"
           },
           {
             "name": "world",
@@ -4476,20 +4476,20 @@
   "language_map": {
     "zh_tw": {
       "item.hongkongdrinks.yg_lemon_tea": "¶§¥úÂfÂc¯ù",
-      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "ºû¥L¦¶¥j¤O¨§¥¤",
+      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey": "ÂEºÖ°óªáºXçx»e",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "¶§¥ú·¦¤l¨§¥¤",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "¹D¦a·¥«~¥Õ¯ù",
       "item.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice Spawn Egg",
-      "item.hongkongdrinks.yg_peach_tea": "¶§¥ú»e®ç¯ù",
       "entity.hongkongdrinks.hft_mandarin_aloe_entity": "ÂEºÖ°ó¬a®ÜÄªîP",
+      "item.hongkongdrinks.yg_peach_tea": "¶§¥ú»e®ç¯ù",
       "block.hongkongdrinks.vending_machine": "¦Û°Ê°â½æ¾÷",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "ºû¥L³Áºë¨§¥¤",
       "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink Spawn Egg",
-      "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "°·±d¤u©Ð¤sÝÓÄ«ªG",
       "item.hongkongdrinks.vita_coconut_soya_milk": "ºû¥L·¦¤l¨§¥¤",
+      "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "°·±d¤u©Ð¤sÝÓÄ«ªG",
       "item.hongkongdrinks.vita_ginger_soya_milk_warm": "ºû¥LÁ¤¨ý¨§¥¤(¼ö)",
       "item.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice Spawn Egg",
       "item.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink Spawn Egg",
@@ -4498,9 +4498,9 @@
       "item.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea Spawn Egg",
       "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "ºû¥L¶³©O®³¨§¥¤",
-      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
-      "item.hongkongdrinks.tao_ti_meta_green_tea": "¹D¦a·¥«~¸Ñºñ¯ù",
       "item.hongkongdrinks.yg_sugarcane_juice": "¶§¥ú½©¥Ä¶¼«~ ",
+      "item.hongkongdrinks.tao_ti_meta_green_tea": "¹D¦a·¥«~¸Ñºñ¯ù",
+      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
       "item.hongkongdrinks.yg_honey_lychee_tea": "¶§¥ú¸Á»e¯ïªK¯ù",
       "item.hongkongdrinks.yg_sugarcane_juice_entity": "Yeung Gwong Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "ºû¥L¶Â¥[¨Ú¤l¥Ä",
@@ -4610,20 +4610,20 @@
     },
     "en_us": {
       "item.hongkongdrinks.yg_lemon_tea": "Yeung Gwong Lemon Tea",
-      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
+      "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
       "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
       "entity.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk",
       "item.hongkongdrinks.tao_ti_grape_juice_entity": "Tao Ti Kyoho Grape Juice Spawn Egg",
-      "item.hongkongdrinks.yg_peach_tea": "Yeung Gwong Peach Tea",
       "entity.hongkongdrinks.hft_mandarin_aloe_entity": "Hung Fook Tong Mandarin Juice With Aloe Drink",
+      "item.hongkongdrinks.yg_peach_tea": "Yeung Gwong Peach Tea",
       "entity.hongkongdrinks.vita_malt_soya_milk_entity": "Vita Malted Soya Milk",
       "block.hongkongdrinks.vending_machine": "Vending Machine",
       "item.hongkongdrinks.vita_icy_grapefruit_entity": "Vita Icy Pink Grapefruit Tea Spawn Egg",
       "item.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink Spawn Egg",
-      "item.hongkongdrinks.vita_coconut_soya_milk": "Vita Coconut Soya Milk",
       "item.hongkongdrinks.healthworks_hawhorn_apple_drink": "Healthworks Hawhorn Apple Drink",
+      "item.hongkongdrinks.vita_coconut_soya_milk": "Vita Coconut Soya Milk",
       "item.hongkongdrinks.vita_ginger_soya_milk_warm": "Warm Vita Ginger Soya Milk",
       "item.hongkongdrinks.yg_mango_juice_entity": "Yeung Gwong Mango Juice Spawn Egg",
       "item.hongkongdrinks.vita_imperatae_cane_drink_entity": "Vita Imperatae Cane Drink Spawn Egg",
@@ -4632,9 +4632,9 @@
       "item.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea Spawn Egg",
       "item.hongkongdrinks.vita_sugarcane_juice_entity": "Vita Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.vita_vanilla_soya_milk_entity": "Vita Vanilla Soya Milk",
-      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
-      "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
       "item.hongkongdrinks.yg_sugarcane_juice": "Yeung Gwong Sugarcane Juice",
+      "item.hongkongdrinks.tao_ti_meta_green_tea": "Tao Ti Supreme Meta Green Tea",
+      "item.hongkongdrinks.vita_chrysanthemum_tea_entity": "Vita Chrysanthemum Tea Spawn Egg",
       "item.hongkongdrinks.yg_honey_lychee_tea": "Yeung Gwong Honey Lychee Tea",
       "item.hongkongdrinks.yg_sugarcane_juice_entity": "Yeung Gwong Sugarcane Juice Spawn Egg",
       "entity.hongkongdrinks.vita_blackcurrant_juice_entity": "Vita Blackcurrant Juice",
@@ -4760,5 +4760,5 @@
     "modElementsPackage": "com.neocosplayer.hongkongdrinks",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000432115
+  "mcreatorVersion": 202000322116
 }

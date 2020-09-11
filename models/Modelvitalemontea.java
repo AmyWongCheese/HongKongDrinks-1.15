@@ -1,11 +1,11 @@
-// Made with Blockbench 3.5.2
+// Made with Blockbench 3.6.6
 // Exported for Minecraft version 1.15
 // Paste this class into your mod and generate all required imports
 
-public static class Modelvitalemontea1 extends EntityModel<Entity> {
+public static class Modelvitalemontea extends EntityModel<Entity> {
 	private final ModelRenderer bone;
 
-	public Modelvitalemontea1() {
+	public Modelvitalemontea() {
 		textureWidth = 16;
 		textureHeight = 16;
 

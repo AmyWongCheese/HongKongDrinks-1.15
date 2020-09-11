@@ -1,10 +1,12 @@
 {
-  "_fv": 10,
+  "_fv": 11,
   "_type": "gui",
   "definition": {
     "type": 1,
-    "width": 400,
-    "height": 470,
+    "width": 200,
+    "height": 235,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 30,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -17,8 +19,22 @@
             "falpha": 0.0
           },
           "name": "Vending Machine",
-          "x": 354,
-          "y": 24
+          "x": 177,
+          "y": 12
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "onClick": {
+            "name": "InputCoin"
+          },
+          "width": 30,
+          "height": 20,
+          "name": "Buy",
+          "x": 240,
+          "y": 122
         }
       },
       {
@@ -35,36 +51,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 552,
-          "y": 186
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 2,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "onTakenFromSlot": {
-            "name": "DrinkTakenSlot2"
-          },
-          "name": "Slot #2",
-          "x": 300,
-          "y": 60
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Buy",
-          "onClick": {
-            "name": "InputCoin"
-          },
-          "width": 60,
-          "height": 40,
-          "name": "Buy",
-          "x": 480,
-          "y": 186
+          "x": 274,
+          "y": 123
         }
       },
       {
@@ -72,10 +60,24 @@
         "data": {
           "id": 1,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #1",
-          "x": 264,
-          "y": 60
+          "x": 132,
+          "y": 30
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot2"
+          },
+          "name": "Slot #2",
+          "x": 150,
+          "y": 30
         }
       },
       {
@@ -83,10 +85,10 @@
         "data": {
           "id": 3,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #3",
-          "x": 390,
-          "y": 60
+          "x": 195,
+          "y": 30
         }
       },
       {
@@ -94,13 +96,13 @@
         "data": {
           "id": 4,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot4"
           },
           "name": "Slot #4",
-          "x": 426,
-          "y": 60
+          "x": 213,
+          "y": 30
         }
       },
       {
@@ -108,10 +110,10 @@
         "data": {
           "id": 5,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #5",
-          "x": 516,
-          "y": 60
+          "x": 258,
+          "y": 30
         }
       },
       {
@@ -119,13 +121,13 @@
         "data": {
           "id": 6,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot6"
           },
           "name": "Slot #6",
-          "x": 552,
-          "y": 60
+          "x": 276,
+          "y": 30
         }
       },
       {
@@ -133,10 +135,10 @@
         "data": {
           "id": 7,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #7",
-          "x": 264,
-          "y": 114
+          "x": 132,
+          "y": 57
         }
       },
       {
@@ -144,13 +146,13 @@
         "data": {
           "id": 8,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot8"
           },
           "name": "Slot #8",
-          "x": 300,
-          "y": 114
+          "x": 150,
+          "y": 57
         }
       },
       {
@@ -158,10 +160,10 @@
         "data": {
           "id": 9,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #9",
-          "x": 390,
-          "y": 114
+          "x": 195,
+          "y": 57
         }
       },
       {
@@ -169,13 +171,13 @@
         "data": {
           "id": 10,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot10"
           },
           "name": "Slot #10",
-          "x": 426,
-          "y": 114
+          "x": 213,
+          "y": 57
         }
       },
       {
@@ -183,10 +185,10 @@
         "data": {
           "id": 11,
           "disableStackInteraction": true,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #11",
-          "x": 516,
-          "y": 114
+          "x": 258,
+          "y": 57
         }
       },
       {
@@ -194,13 +196,88 @@
         "data": {
           "id": 12,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "onTakenFromSlot": {
             "name": "DrinkTakenSlot12"
           },
           "name": "Slot #12",
-          "x": 552,
-          "y": 114
+          "x": 276,
+          "y": 57
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 13,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #13",
+          "x": 132,
+          "y": 86
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 14,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot14"
+          },
+          "name": "Slot #14",
+          "x": 150,
+          "y": 86
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 15,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #15",
+          "x": 195,
+          "y": 86
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 16,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot16"
+          },
+          "name": "Slot #16",
+          "x": 213,
+          "y": 86
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 17,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #17",
+          "x": 258,
+          "y": 86
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 18,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "onTakenFromSlot": {
+            "name": "DrinkTakenSlot18"
+          },
+          "name": "Slot #18",
+          "x": 276,
+          "y": 86
         }
       }
     ]

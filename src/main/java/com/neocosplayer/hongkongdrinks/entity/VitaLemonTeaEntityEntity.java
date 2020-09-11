@@ -56,7 +56,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.2f, 0.5f))
+				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f))
 						.build("vita_lemon_tea_entity").setRegistryName("vita_lemon_tea_entity");
 		elements.entities.add(() -> entity);
 	}
@@ -75,7 +75,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(entity, renderManager -> {
-			return new MobRenderer(renderManager, new Modelvitalemontea1(), 0.05f) {
+			return new MobRenderer(renderManager, new Modelvitalemontea(), 0.05f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("hongkongdrinks:textures/vitalemon.png");
@@ -179,12 +179,12 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 		}
 	}
 
-	// Made with Blockbench 3.5.2
+	// Made with Blockbench 3.6.6
 	// Exported for Minecraft version 1.15
 	// Paste this class into your mod and generate all required imports
-	public static class Modelvitalemontea1 extends EntityModel<Entity> {
+	public static class Modelvitalemontea extends EntityModel<Entity> {
 		private final ModelRenderer bone;
-		public Modelvitalemontea1() {
+		public Modelvitalemontea() {
 			textureWidth = 16;
 			textureHeight = 16;
 			bone = new ModelRenderer(this);

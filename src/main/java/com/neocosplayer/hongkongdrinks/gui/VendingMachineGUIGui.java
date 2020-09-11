@@ -45,6 +45,9 @@ import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot8Procedure;
 import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot6Procedure;
 import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot4Procedure;
 import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot2Procedure;
+import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot18Procedure;
+import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot16Procedure;
+import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot14Procedure;
 import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot12Procedure;
 import com.neocosplayer.hongkongdrinks.procedures.DrinkTakenSlot10Procedure;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
@@ -90,7 +93,7 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(13);
+			this.internal = new ItemStackHandler(19);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -128,10 +131,21 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 163, 91) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 161, 121) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return (new ItemStack(Items.EMERALD, (int) (1)).getItem() == stack.getItem());
+				}
+			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 19, 28) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
 				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 37, 28) {
@@ -140,17 +154,6 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 					ItemStack retval = super.onTake(entity, stack);
 					GuiContainerMod.this.slotChanged(2, 1, 0);
 					return retval;
-				}
-
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 19, 28) {
-				@Override
-				public boolean canTakeStack(PlayerEntity player) {
-					return false;
 				}
 
 				@Override
@@ -278,13 +281,85 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 					return false;
 				}
 			}));
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 19, 84) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 37, 84) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(14, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 82, 84) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 100, 84) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(16, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 145, 84) {
+				@Override
+				public boolean canTakeStack(PlayerEntity player) {
+					return false;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 163, 84) {
+				@Override
+				public ItemStack onTake(PlayerEntity entity, ItemStack stack) {
+					ItemStack retval = super.onTake(entity, stack);
+					GuiContainerMod.this.slotChanged(18, 1, 0);
+					return retval;
+				}
+
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 12 + 8 + sj * 18, 35 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 12 + 8 + sj * 18, 64 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 12 + 8 + si * 18, 35 + 142));
+				this.addSlot(new Slot(inv, si, 12 + 8 + si * 18, 64 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -303,18 +378,18 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 13) {
-					if (!this.mergeItemStack(itemstack1, 13, this.inventorySlots.size(), true)) {
+				if (index < 19) {
+					if (!this.mergeItemStack(itemstack1, 19, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 13, false)) {
-					if (index < 13 + 27) {
-						if (!this.mergeItemStack(itemstack1, 13 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 19, false)) {
+					if (index < 19 + 27) {
+						if (!this.mergeItemStack(itemstack1, 19 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 13, 13 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 19, 19 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -420,10 +495,82 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
+						if (j == 1)
+							continue;
+						if (j == 2)
+							continue;
+						if (j == 3)
+							continue;
+						if (j == 4)
+							continue;
+						if (j == 5)
+							continue;
+						if (j == 6)
+							continue;
+						if (j == 7)
+							continue;
+						if (j == 8)
+							continue;
+						if (j == 9)
+							continue;
+						if (j == 10)
+							continue;
+						if (j == 11)
+							continue;
+						if (j == 12)
+							continue;
+						if (j == 13)
+							continue;
+						if (j == 14)
+							continue;
+						if (j == 15)
+							continue;
+						if (j == 16)
+							continue;
+						if (j == 17)
+							continue;
+						if (j == 18)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
+						if (i == 1)
+							continue;
+						if (i == 2)
+							continue;
+						if (i == 3)
+							continue;
+						if (i == 4)
+							continue;
+						if (i == 5)
+							continue;
+						if (i == 6)
+							continue;
+						if (i == 7)
+							continue;
+						if (i == 8)
+							continue;
+						if (i == 9)
+							continue;
+						if (i == 10)
+							continue;
+						if (i == 11)
+							continue;
+						if (i == 12)
+							continue;
+						if (i == 13)
+							continue;
+						if (i == 14)
+							continue;
+						if (i == 15)
+							continue;
+						if (i == 16)
+							continue;
+						if (i == 17)
+							continue;
+						if (i == 18)
+							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 					}
@@ -464,11 +611,11 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerBackgroundLayer(float par1, int par2, int par3) {
-			GL11.glColor4f(1.0F, 1.0F, 1.0F, 1.0F);
+			GL11.glColor4f(1, 1, 1, 1);
 			Minecraft.getInstance().getTextureManager().bindTexture(texture);
 			int k = (this.width - this.xSize) / 2;
 			int l = (this.height - this.ySize) / 2;
-			this.blit(k, l, 0, 0, this.xSize, this.ySize);
+			this.blit(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 		}
 
 		@Override
@@ -487,7 +634,7 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Vending Machine", 64, 10, -16777216);
+			this.font.drawString("Vending Machine", 63, 9, -16777216);
 		}
 
 		@Override
@@ -500,7 +647,7 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 127, this.guiTop + 91, 30, 20, "Buy", e -> {
+			this.addButton(new Button(this.guiLeft + 126, this.guiTop + 119, 30, 20, "Buy", e -> {
 				HongkongdrinksMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
@@ -597,6 +744,10 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				InputCoinProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -671,6 +822,39 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				DrinkTakenSlot12Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 14 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DrinkTakenSlot14Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 16 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DrinkTakenSlot16Procedure.executeProcedure($_dependencies);
+			}
+		}
+		if (slotID == 18 && changeType == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				DrinkTakenSlot18Procedure.executeProcedure($_dependencies);
 			}
 		}
 	}

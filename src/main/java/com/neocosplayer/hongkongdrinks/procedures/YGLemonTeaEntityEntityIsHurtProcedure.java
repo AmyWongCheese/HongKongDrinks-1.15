@@ -1,41 +1,58 @@
 package com.neocosplayer.hongkongdrinks.procedures;
 
+import net.minecraft.world.IWorld;
+import net.minecraft.world.GameType;
+import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.ClientPlayerEntity;
+import net.minecraft.client.Minecraft;
+
+import java.util.Map;
+
+import com.neocosplayer.hongkongdrinks.item.YGLemonTeaItem;
+import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
+
 @HongkongdrinksModElements.ModElement.Tag
 public class YGLemonTeaEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
-
 	public YGLemonTeaEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
 		super(instance, 161);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure YGLemonTeaEntityEntityIsHurt!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure YGLemonTeaEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure YGLemonTeaEntityEntityIsHurt!");
+			if (!dependencies.containsKey("x"))
+				System.err.println("Failed to load dependency x for procedure YGLemonTeaEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure YGLemonTeaEntityEntityIsHurt!");
+			if (!dependencies.containsKey("y"))
+				System.err.println("Failed to load dependency y for procedure YGLemonTeaEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure YGLemonTeaEntityEntityIsHurt!");
+			if (!dependencies.containsKey("z"))
+				System.err.println("Failed to load dependency z for procedure YGLemonTeaEntityEntityIsHurt!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure YGLemonTeaEntityEntityIsHurt!");
+			if (!dependencies.containsKey("world"))
+				System.err.println("Failed to load dependency world for procedure YGLemonTeaEntityEntityIsHurt!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
-
 		if (!entity.world.isRemote)
 			entity.remove();
 		if ((!(new Object() {
@@ -56,7 +73,5 @@ public class YGLemonTeaEntityEntityIsHurtProcedure extends HongkongdrinksModElem
 				world.addEntity(entityToSpawn);
 			}
 		}
-
 	}
-
 }

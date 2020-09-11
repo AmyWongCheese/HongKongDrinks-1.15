@@ -24,6 +24,7 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
@@ -124,18 +125,19 @@ public class VendingMachineBlock extends HongkongdrinksModElements.ModElement {
 
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vec3d offset = state.getOffset(world, pos);
 			switch ((Direction) state.get(FACING)) {
 				case UP :
 				case DOWN :
 				case SOUTH :
 				default :
-					return VoxelShapes.create(1D, 0D, 0.5D, 0D, 1D, 0D);
+					return VoxelShapes.create(1D, 0D, 0.5D, 0D, 1D, 0D).withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.create(0D, 0D, 0.5D, 1D, 1D, 1D);
+					return VoxelShapes.create(0D, 0D, 0.5D, 1D, 1D, 1D).withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.create(0.5D, 0D, 1D, 1D, 1D, 0D);
+					return VoxelShapes.create(0.5D, 0D, 1D, 1D, 1D, 0D).withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.create(0.5D, 0D, 0D, 0D, 1D, 1D);
+					return VoxelShapes.create(0.5D, 0D, 0D, 0D, 1D, 1D).withOffset(offset.x, offset.y, offset.z);
 			}
 		}
 
@@ -190,6 +192,10 @@ public class VendingMachineBlock extends HongkongdrinksModElements.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
 				VendingMachineOnBlockRightClickedProcedure.executeProcedure($_dependencies);
 			}
 			return ActionResultType.SUCCESS;
@@ -220,7 +226,7 @@ public class VendingMachineBlock extends HongkongdrinksModElements.ModElement {
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(13, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(19, ItemStack.EMPTY);
 		protected CustomTileEntity() {
 			super(tileEntityType);
 		}

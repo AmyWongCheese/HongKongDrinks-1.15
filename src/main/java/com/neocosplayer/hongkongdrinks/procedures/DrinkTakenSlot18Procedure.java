@@ -55,11 +55,11 @@ public class DrinkTakenSlot18Procedure extends HongkongdrinksModElements.ModElem
 		IWorld world = (IWorld) dependencies.get("world");
 		if (!world.getWorld().isRemote) {
 			world.playSound(null, new BlockPos((int) x, (int) y, (int) z),
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1);
 		} else {
 			world.getWorld().playSound(x, y, z,
-					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.cave")),
+					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.villager.trade")),
 					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
 		}
 		{

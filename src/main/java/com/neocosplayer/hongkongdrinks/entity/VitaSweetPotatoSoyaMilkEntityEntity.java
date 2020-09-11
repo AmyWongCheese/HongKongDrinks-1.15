@@ -38,18 +38,18 @@ import net.minecraft.block.material.Material;
 import java.util.Map;
 import java.util.HashMap;
 
-import com.neocosplayer.hongkongdrinks.procedures.VitaLemonTeaEntityEntityIsHurtProcedure;
-import com.neocosplayer.hongkongdrinks.item.VitaLemonTeaItem;
+import com.neocosplayer.hongkongdrinks.procedures.VitaSweetPotatoSoyaMilkEntityEntityIsHurtProcedure;
+import com.neocosplayer.hongkongdrinks.item.VitaSweetPotatoSoyaMilkItem;
 import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
 @HongkongdrinksModElements.ModElement.Tag
-public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModElement {
+public class VitaSweetPotatoSoyaMilkEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
-	public VitaLemonTeaEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 48);
+	public VitaSweetPotatoSoyaMilkEntityEntity(HongkongdrinksModElements instance) {
+		super(instance, 250);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -57,7 +57,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(100).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.2f, 0.5f))
-						.build("vita_lemon_tea_entity").setRegistryName("vita_lemon_tea_entity");
+						.build("vita_sweet_potato_soya_milk_entity").setRegistryName("vita_sweet_potato_soya_milk_entity");
 		elements.entities.add(() -> entity);
 	}
 
@@ -78,7 +78,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 			return new MobRenderer(renderManager, new Modelvitalemontea(), 0.05f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("hongkongdrinks:textures/vitalemon.png");
+					return new ResourceLocation("hongkongdrinks:textures/sweetpotatosoya_e.png");
 				}
 			};
 		});
@@ -118,7 +118,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(VitaLemonTeaItem.block, (int) (1)));
+			this.entityDropItem(new ItemStack(VitaSweetPotatoSoyaMilkItem.block, (int) (1)));
 		}
 
 		@Override
@@ -145,7 +145,7 @@ public class VitaLemonTeaEntityEntity extends HongkongdrinksModElements.ModEleme
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				VitaLemonTeaEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
+				VitaSweetPotatoSoyaMilkEntityEntityIsHurtProcedure.executeProcedure($_dependencies);
 			}
 			if (source.getImmediateSource() instanceof ArrowEntity)
 				return false;

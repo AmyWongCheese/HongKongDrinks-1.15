@@ -2,10 +2,10 @@
   "_fv": 11,
   "_type": "mob",
   "definition": {
-    "mobName": "Vita Lemon Tea",
+    "mobName": "Vita Sweet Potato Soya Milk",
     "mobLabel": "",
     "mobModelName": "Modelvitalemontea",
-    "mobModelTexture": "vitalemon.png",
+    "mobModelTexture": "sweetpotatosoya_e.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.2,
     "modelHeight": 0.5,
@@ -70,7 +70,7 @@
     "immuneToPotions": true,
     "immuneToPlayer": true,
     "mobDrop": {
-      "value": "CUSTOM:VitaLemonTea"
+      "value": "CUSTOM:VitaSweetPotatoSoyaMilk"
     },
     "livingSound": {
       "value": ""
@@ -92,7 +92,7 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "whenMobIsHurt": {
-      "name": "VitaLemonTeaEntityEntityIsHurt"
+      "name": "VitaSweetPotatoSoyaMilkEntityEntityIsHurt"
     },
     "hasAI": true,
     "aiBase": "(none)",

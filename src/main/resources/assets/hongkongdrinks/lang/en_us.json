@@ -1,7 +1,7 @@
 {
   "item.hongkongdrinks.yg_lemon_tea": "Yeung Gwong Lemon Tea",
-  "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
   "item.hongkongdrinks.yg_honey_lychee_tea_entity": "Yeung Gwong Honey Lychee Tea Spawn Egg",
+  "entity.hongkongdrinks.vita_choco_soya_milk_entity": "Vita Chocolate Soya Milk",
   "item.hongkongdrinks.hft_ginseng_honey": "Hung Fook Tong American Ginseng With Honey Drink",
   "entity.hongkongdrinks.tao_ti_white_tea_entity": "Tao Ti Supreme White Tea",
   "entity.hongkongdrinks.yg_coconut_milk_entity": "Yeung Gwong Coconut Soya Milk",
@@ -72,6 +72,7 @@
   "item.hongkongdrinks.vita_apple_mango_tea": "Vita Apple Mango Tea",
   "item.hongkongdrinks.hft_mandarin_aloe_entity_spawn_egg": "Hung Fook Tong Mandarin Juice With Aloe Drink Spawn Egg",
   "item.hongkongdrinks.vita_sweet_potato_soya_milk_entity_spawn_egg": "Vita Sweet Potato Soya Milk Spawn Egg",
+  "item.hongkongdrinks.vita_lychee_love_tea_entity_spawn_egg": "Vita Lychee Love Tea Spawn Egg",
   "item.hongkongdrinks.vita_malt_soya_milk": "Vita Malted Soya Milk",
   "entity.hongkongdrinks.hft_ginseng_honey_entity": "Hung Fook Tong American Ginseng With Honey Drink",
   "item.hongkongdrinks.vita_guava_juice_entity_spawn_egg": "Vita Guava Juice Spawn Egg",
@@ -132,6 +133,7 @@
   "item.hongkongdrinks.hft_passion_fruit_entity_spawn_egg": "Hung Fook Tong Passion Fruit with Honey Drink Spawn Egg",
   "entity.hongkongdrinks.vita_coconut_soya_milk_entity": "Vita Coconut Soya Milk",
   "item.hongkongdrinks.vita_guava_juice": "Vita Guava Juice",
+  "entity.hongkongdrinks.vita_lychee_love_tea_entity": "Vita Lychee Love Tea",
   "item.hongkongdrinks.yg_apple_juice": "Yeung Gwong Apple Juice",
   "item.hongkongdrinks.yg_chrysanthemum_tea_entity_spawn_egg": "Yeung Gwong Chrysanthemum Tea Spawn Egg",
   "item.hongkongdrinks.vita_mango_juice_entity": "Vita Mango Juice Spawn Egg",
@@ -185,5 +187,6 @@
   "entity.hongkongdrinks.vita_guava_juice_entity": "Vita Guava Juice",
   "item.hongkongdrinks.yg_chrysanthemum_tea_entity": "Yeung Gwong Chrysanthemum Tea Spawn Egg",
   "entity.hongkongdrinks.hft_salted_mandarin_entity": "Hung Fook Tong Salted Mandarin Drink",
-  "item.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink Spawn Egg"
+  "item.hongkongdrinks.hft_passion_fruit_entity": "Hung Fook Tong Passion Fruit with Honey Drink Spawn Egg",
+  "item.hongkongdrinks.vita_lychee_love_tea": "Vita Lychee Love Tea"
 }

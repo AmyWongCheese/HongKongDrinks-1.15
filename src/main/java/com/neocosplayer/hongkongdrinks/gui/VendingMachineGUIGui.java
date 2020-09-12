@@ -601,6 +601,11 @@ public class VendingMachineGUIGui extends HongkongdrinksModElements.ModElement {
 			this.xSize = 200;
 			this.ySize = 235;
 		}
+
+		@Override
+		public boolean isPauseScreen() {
+			return true;
+		}
 		private static final ResourceLocation texture = new ResourceLocation("hongkongdrinks:textures/vending_machine_gui.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {

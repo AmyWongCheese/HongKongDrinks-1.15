@@ -46,7 +46,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 public class TaoTiMandarinLemonEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public TaoTiMandarinLemonEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 74);
+		super(instance, 85);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

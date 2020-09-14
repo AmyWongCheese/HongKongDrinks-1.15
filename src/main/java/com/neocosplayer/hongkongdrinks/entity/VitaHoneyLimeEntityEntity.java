@@ -46,7 +46,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 public class VitaHoneyLimeEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public VitaHoneyLimeEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 53);
+		super(instance, 64);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

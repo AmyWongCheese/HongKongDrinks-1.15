@@ -45,7 +45,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 public class HealthworksHawhornAppleEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public HealthworksHawhornAppleEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 78);
+		super(instance, 89);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

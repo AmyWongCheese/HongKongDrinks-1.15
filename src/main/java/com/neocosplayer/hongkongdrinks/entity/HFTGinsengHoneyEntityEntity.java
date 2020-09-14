@@ -49,7 +49,7 @@ import com.mojang.blaze3d.matrix.MatrixStack;
 public class HFTGinsengHoneyEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public HFTGinsengHoneyEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 203);
+		super(instance, 214);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

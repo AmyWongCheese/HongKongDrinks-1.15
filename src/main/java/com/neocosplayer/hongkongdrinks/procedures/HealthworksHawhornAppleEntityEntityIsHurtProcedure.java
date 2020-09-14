@@ -19,7 +19,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class HealthworksHawhornAppleEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
 	public HealthworksHawhornAppleEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
-		super(instance, 79);
+		super(instance, 90);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -46,7 +46,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 public class HealthworksRockSugarWithPearEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public HealthworksRockSugarWithPearEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 81);
+		super(instance, 92);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

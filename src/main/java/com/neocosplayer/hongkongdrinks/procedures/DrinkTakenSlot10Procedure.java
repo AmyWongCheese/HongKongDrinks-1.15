@@ -19,7 +19,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class DrinkTakenSlot10Procedure extends HongkongdrinksModElements.ModElement {
 	public DrinkTakenSlot10Procedure(HongkongdrinksModElements instance) {
-		super(instance, 187);
+		super(instance, 198);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

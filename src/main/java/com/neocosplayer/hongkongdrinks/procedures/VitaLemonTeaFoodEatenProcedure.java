@@ -10,7 +10,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class VitaLemonTeaFoodEatenProcedure extends HongkongdrinksModElements.ModElement {
 	public VitaLemonTeaFoodEatenProcedure(HongkongdrinksModElements instance) {
-		super(instance, 47);
+		super(instance, 58);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

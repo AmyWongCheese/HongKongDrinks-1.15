@@ -19,7 +19,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 @HongkongdrinksModElements.ModElement.Tag
 public class HFTPassionFruitEntityEntityIsHurtProcedure extends HongkongdrinksModElements.ModElement {
 	public HFTPassionFruitEntityEntityIsHurtProcedure(HongkongdrinksModElements instance) {
-		super(instance, 193);
+		super(instance, 204);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -46,7 +46,7 @@ import com.neocosplayer.hongkongdrinks.HongkongdrinksModElements;
 public class YGPeachTeaEntityEntity extends HongkongdrinksModElements.ModElement {
 	public static EntityType entity = null;
 	public YGPeachTeaEntityEntity(HongkongdrinksModElements instance) {
-		super(instance, 176);
+		super(instance, 187);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
